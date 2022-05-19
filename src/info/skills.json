@@ -1,0 +1,577 @@
+{
+  "Frontend": {
+    "frameworks": {
+      "React": {
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+        "exp": {
+          "years": 3,
+          "notes": "React is one of my favorite ways to build apps and websites! The way components stack and interact with one another just makes sense to me."
+        },
+        "icon": {
+          "name": "fa-brands fa-react"
+        }
+      },
+      "Angular": {
+        "description": "Angular is a platform for building mobile and desktop web applications.",
+        "exp": {
+          "years": 1,
+          "notes": "Angular is pretty cool! I've had the opportunity to do some class projects using angular and found it enjoyable and intuitive."
+        },
+        "icon": {
+          "name": "fa-brands fa-angular"
+        }
+      }
+    },
+    "languages": {
+      "JavaScript": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-js"
+        }
+      },
+      "HTML": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-html5"
+        }
+      },
+      "CSS": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-css3-alt"
+        }
+      },
+      "XML": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "projects": {
+      "Type-Beer": {
+        "description": {},
+        "stack": {},
+        "repo": {},
+        "site": {},
+        "images": {}
+      }
+    },
+    "icon": {
+      "name": "fa-solid fa-display"
+    }
+  },
+  "Mobile": {
+    "frameworks": {
+      "React-Native": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-react"
+        }
+      }
+    },
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-mobile-screen-button"
+    }
+  },
+  "Fullstack": {
+    "frameworks": {
+      ".NET": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Redux": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "languages": {
+      "JavaScript": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-js"
+        }
+      },
+      "TypeScript": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Python": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-python"
+        }
+      }
+    },
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-pancakes"
+    }
+  },
+  "Backend": {
+    "frameworks": {
+      "Node.js": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-node-js"
+        }
+      },
+      "Express": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "WildFly": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "languages": {
+      "Java": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-java"
+        }
+      },
+      "C++": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "C#": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Python": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-python"
+        }
+      }
+    },
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-server"
+    }
+  },
+  "Data": {
+    "frameworks": {
+      "MongoDB": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Azure Cosmos DB": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Amazon DynamoDB": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Amazon S3": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "MySQL": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "PostgreSQL": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "SQL Server": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Redshift": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "languages": {
+      "SQL": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "NoSQL": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-database"
+    }
+  },
+  "UI/UX": {
+    "frameworks": {
+      "Bootstrap": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "SemanticUI": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Material Design": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Figma": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-figma"
+        }
+      },
+      "WordPress": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-wordpress"
+        }
+      }
+    },
+    "icon": {
+      "name": "fa-solid fa-browser"
+    }
+  },
+  "Cloud": {
+    "frameworks": {
+      "AWS": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-aws"
+        }
+      },
+      "Microsoft Azure": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-microsoft"
+        }
+      },
+      "Google Cloud Platform": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-google"
+        }
+      },
+      "Docker": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-docker"
+        }
+      }
+    },
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-cloud"
+    }
+  },
+  "Machine Learning & AI": {
+    "projects": {},
+    "icon": {
+      "name": "fa-solid fa-brain-circuit"
+    }
+  },
+  "Scripting": {
+    "Windows": {
+      "Batch Scripting": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-windows"
+        }
+      }
+    },
+    "Linux": {
+      "Shell Scripting": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-linux"
+        }
+      }
+    },
+    "general": {
+      "Python": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-brands fa-python"
+        }
+      }
+    },
+    "icon": {
+      "name": "fa-solid fa-scroll"
+    }
+  },
+  "Testing and Automation": {
+    "frameworks": {
+      "JUnit": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Mocha": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Selenium": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Jest": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "BluePrism": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Mockito": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Apache JMeter": {
+        "description": {},
+        "exp": {
+          "years": {},
+          "notes": {}
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
+    },
+    "icon": {
+      "name": "fa-solid fa-flask-vial"
+    }
+  }
+}
