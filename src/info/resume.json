@@ -1,5 +1,23 @@
 {
-  "education": {},
-  "work": {},
-  "projects": {}
+  "education": {
+    "startDate": {},
+    "endDate": {},
+    "location": {},
+    "school": {},
+    "field": {},
+    "level": {}
+  },
+  "work": {
+    "startDate": {},
+    "endDate": {},
+    "location": {},
+    "jobTitle": {},
+    "employer": {},
+    "description": {}
+  },
+  "projects": {
+    "description": {},
+    "stack": {},
+    "link": {}
+  }
 }
