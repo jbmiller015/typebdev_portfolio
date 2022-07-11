@@ -28,17 +28,76 @@
       "degree": "Bachelor of Arts"
     }
   ],
-  "work": [{
-    "startDate": {},
-    "endDate": {},
-    "location": {},
-    "jobTitle": {},
-    "employer": {},
-    "description": {}
-  }],
-  "projects": [{
-    "description": {},
-    "stack": {},
-    "link": {}
-  }]
+  "work": [
+    {
+      "startDate": "2021-08-01",
+      "endDate": "",
+      "location": "Remote",
+      "jobTitle": "Software Developer",
+      "employer": "CodeObjects (An Insurity Company)",
+      "description": [
+        "Designed, developed, and tested solutions to complex business problems using Java, XML, and SQL.",
+        "Participated in daily standups, regular code reviews, and sprint planning as part of an Agile development team.",
+        "Owned production release preparation process for major (monthly) and minor (biweekly) product deployments.",
+        "Managed shared developer environment access control, making regular updates to preserve security standards.",
+        "Maintained org-wide QA DB, regularly cloning, masking, and inserting up-to-date data from production."
+      ]
+    },
+    {
+      "startDate": "2020-08-01",
+      "endDate": "2021-03-31",
+      "location": "Seattle, WA",
+      "jobTitle": "Automation Engineer/Team Lead",
+      "employer": "Puget Sound Energy",
+      "description": [
+        "Developed automated solutions for complex finance problems, reducing reporting time from 4 hrs to ~10 sec.",
+        "Lead an Agile development team of 4 in regular standups, weekly code reviews, and stakeholder meetings.",
+        "Engineered automated robotic processes in Blue Prism (Automation Platform) using C# and Python."
+      ]
+    },
+    {
+      "startDate": "2020-06-01",
+      "endDate": "2021-03-31",
+      "location": "Seattle, WA",
+      "jobTitle": "Computer Science Graduate Teaching Assistant",
+      "employer": "Seattle University",
+      "description": [
+        "Trained and mentored 75+ graduate students in topics ranging from algorithmic and procedural problem solving, Object-Oriented programming, data structures, and software testing and debugging in Java and C++.",
+        "Organized weekly office hours to provide tutoring, counseling, and academic assistance to students, leading to an average pass percentage of 93% across four courses."
+      ]
+    },
+    {
+      "startDate": "2019-10-01",
+      "endDate": "2020-04-30",
+      "location": "Seattle, WA",
+      "jobTitle": "Web Development Intern",
+      "employer": "Univera Serve First",
+      "description": [
+        "Owned and managed complete website redesign project for Univera’s charity website.",
+        "Rebuilt front-end using JavaScript, HTML, and CSS to improve site usability and reliability.",
+        "Planned, developed, tested, and deployed integrated web applications to replace old, costly features.",
+        "Lead stakeholder meetings with Board, Marketing Team, and CEO to review changes and obtain sign off."
+      ]
+    },
+    {
+      "startDate": "2019-03-01",
+      "endDate": "2019-08-31",
+      "location": "Seattle, WA",
+      "jobTitle": "Relations Analyst",
+      "employer": "Tavour",
+      "description": [
+        "Collected and analyzed product performance using internal and market data to drive business strategy.",
+        "Designed a product performance report system using Python and SQL that improved reporting time by 84%.",
+        "Identified computing error and facilitated a solution that saved the company 10% on cost of every shipment.",
+        "Automated inbound tracking process to provide process clarity and improve arrival time prediction by 15%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "description": {},
+      "stack": {},
+      "link": {}
+    }
+  ]
 }
