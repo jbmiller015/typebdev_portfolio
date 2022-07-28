@@ -14,11 +14,17 @@ const Skill = (props) => {
     }
 
     const languages = () => {
+        let lang;
         if (attributes.languages) {
-            return Object.entries(attributes.languages).map((lang, i) => {
-                console.log(lang)
+            lang = Object.entries(attributes.languages).map((lang, i) => {
                 return <Tech key={"lang" + i} data={lang}/>
             });
+            return (
+                <div>
+                    <label>Languages</label>
+                    {lang}
+                </div>
+            );
         }
     }
 
@@ -28,10 +34,7 @@ const Skill = (props) => {
         <div>
             {platforms()}
         </div>
-        <label>Languages</label>
-        <div>
-            {languages()}
-        </div>
+        {languages()}
     </div>);
 }
 export default Skill;
