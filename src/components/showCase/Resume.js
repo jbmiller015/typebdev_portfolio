@@ -1,6 +1,8 @@
 import React from 'react';
 import Tech from "./Tech";
 import Education from "./Education";
+import Work from "./Work";
+import Project from "./Project";
 
 const Resume = (props) => {
 
@@ -13,7 +15,13 @@ const Resume = (props) => {
                     return <Education key={"education" + i} values={values}/>
                 })
             case"work":
+                return Object.entries(attributes).map((values, i) => {
+                    return <Work key={"education" + i} values={values}/>
+                })
             case"projects":
+                return Object.entries(attributes).map((values, i) => {
+                    return <Project key={"education" + i} values={values}/>
+                })
         }
     }
 
