@@ -1,5 +1,5 @@
 import React from 'react';
-import Tech from "./Tech";
+import Tech from "../skills/Tech";
 import Education from "./Education";
 import Work from "./Work";
 import Project from "./Project";
@@ -12,15 +12,15 @@ const Resume = (props) => {
         switch (resName) {
             case "education":
                 return Object.entries(attributes).map((values, i) => {
-                    return <Education key={"education" + i} values={values}/>
+                    return <Education key={"education" + i} values={values[1]}/>
                 })
             case"work":
                 return Object.entries(attributes).map((values, i) => {
-                    return <Work key={"education" + i} values={values}/>
+                    return <Work key={"education" + i} values={values[1]}/>
                 })
             case"projects":
                 return Object.entries(attributes).map((values, i) => {
-                    return <Project key={"education" + i} values={values}/>
+                    return <Project key={"education" + i} values={values[1]}/>
                 })
         }
     }
@@ -53,6 +53,9 @@ const Resume = (props) => {
         }
     }
 
-    return (<div className={"ui segment"}>{resName}</div>);
+    return (<div className={"ui segment"}><h2>{resName}</h2>
+    <div>
+        {values()}
+    </div></div>);
 }
 export default Resume;

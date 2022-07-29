@@ -1,8 +1,8 @@
 import React from 'react';
 import skills from '../../info/skills.json';
-import Skill from "./Skill";
+import Skill from "./skills/Skill";
 import resume from '../../info/resume.json';
-import Resume from "./Resume";
+import Resume from "./resume/Resume";
 
 const ShowCase = () => {
 
