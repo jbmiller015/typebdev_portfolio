@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Education = () => {
-    return (<div>Education</div>);
+const Education = (props) => {
+    return (<div>{props.values}</div>);
 }
 export default Education;

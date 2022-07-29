@@ -53,13 +53,6 @@ const Resume = (props) => {
         }
     }
 
-    return (<div className={"ui segment"}>
-        <h2>{resName}</h2>
-        <label>Platforms/Frameworks</label>
-        <div>
-            {platforms()}
-        </div>
-        {languages()}
-    </div>);
+    return (<div className={"ui segment"}>{resName}</div>);
 }
 export default Resume;
