@@ -10,17 +10,17 @@ const Resume = (props) => {
 
     const values = () => {
         switch (resName) {
-            case "education":
+            case "Education":
                 return Object.entries(attributes).map((values, i) => {
                     return <Education key={"education" + i} values={values[1]}/>
                 })
-            case"work":
+            case"Career":
                 return Object.entries(attributes).map((values, i) => {
-                    return <Work key={"education" + i} values={values[1]}/>
+                    return <Work key={"career" + i} values={values[1]}/>
                 })
-            case"projects":
+            case"Projects":
                 return Object.entries(attributes).map((values, i) => {
-                    return <Project key={"education" + i} values={values[1]}/>
+                    return <Project key={"projects" + i} values={values[1]}/>
                 })
         }
     }

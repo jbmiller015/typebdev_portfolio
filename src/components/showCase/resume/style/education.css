@@ -1,0 +1,14 @@
+.lutherAccordionContent {
+    background-image: url("../../../../Resources/images/LCLogo.png");
+    opacity: 0.5;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain;
+}
+.seattleAccordionContent {
+    background-image: url("../../../../Resources/images/SULogo.png");
+    background-color: #ffffff;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain;
+}
