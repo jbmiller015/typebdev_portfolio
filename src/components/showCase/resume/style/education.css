@@ -1,14 +1,19 @@
-.lutherAccordionContent {
-    background-image: url("../../../../Resources/images/LCLogo.png");
-    opacity: 0.5;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:contain;
+.accordionImage {
+    opacity: 0.25;
+    z-index: 99;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 2%;
 }
-.seattleAccordionContent {
-    background-image: url("../../../../Resources/images/SULogo.png");
-    background-color: #ffffff;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:contain;
+.accordionContent{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.accordionText{
+    position: absolute;
+    text-align: left !important;
+    width: 95%;
+    font-size: medium;
 }
