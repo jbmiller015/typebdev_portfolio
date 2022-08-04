@@ -2,29 +2,26 @@
   "Education": [
     {
       "school": "Seattle University",
-      "startDate": "2022-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2019-08-01",
+      "endDate": "2021-03-01",
       "location": "Seattle, WA",
-      "field": "Computer Science, Specializing in Software Engineering",
+      "field": "Computer Science\nSpecializing in Software Engineering",
       "degree": "Master of Science"
     },
     {
       "school": "Seattle University",
-      "startDate": "2022-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2018-06-01",
+      "endDate": "2019-12-01",
       "location": "Seattle, WA",
       "field": "Computer Science",
       "degree": "Graduate Certificate"
     },
     {
       "school": "Luther College",
-      "startDate": "2022-01-01",
-      "endDate": "2022-01-01",
+      "startDate": "2012-08-01",
+      "endDate": "2016-05-01",
       "location": "Decorah, IA",
-      "field": [
-        "Political Science",
-        "Russian Studies"
-      ],
+      "field": "Political Science\nRussian Studies",
       "degree": "Bachelor of Arts"
     }
   ],

@@ -11,9 +11,11 @@ const Resume = (props) => {
     const values = () => {
         switch (resName) {
             case "Education":
-                return Object.entries(attributes).map((values, i) => {
-                    return <Education key={"education" + i} values={values[1]}/>
-                })
+                return <div className={"flexContainer"}>{
+                    Object.entries(attributes).map((values, i) => {
+                            return <Education key={"education" + i} values={values[1]}/>
+                        }
+                    )}</div>
             case"Career":
                 return Object.entries(attributes).map((values, i) => {
                     return <Work key={"career" + i} values={values[1]}/>
@@ -53,9 +55,9 @@ const Resume = (props) => {
         }
     }
 
-    return (<div className={"ui segment"}><h2>{resName}</h2>
-    <div>
-        {values()}
-    </div></div>);
+    return (
+        <div className={"ui segment"}><h2>{resName}</h2>
+            {values()}
+        </div>);
 }
 export default Resume;
