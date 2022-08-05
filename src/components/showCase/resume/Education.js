@@ -1,5 +1,4 @@
 import React from 'react';
-import useComponentVisible from "../../../Hooks/useComponentVisible";
 import "./style/education.css"
 import LCLogo from '../../../Resources/images/LCLogo.png';
 import SULogo from '../../../Resources/images/SULogo.png';
@@ -17,7 +16,7 @@ const Education = (props) => {
 
     const fade = () => {
         return (<div className={"fadeBox"}>
-            <div className="ui fade reveal">
+            <div className="ui instant move up reveal">
                 <div className="visible content">
                     <div className={"contentBox"}>
                         {imageName()}
