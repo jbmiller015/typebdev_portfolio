@@ -1,0 +1,12 @@
+.accordionContent {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.accordionText {
+    position: absolute;
+    text-align: left !important;
+    width: 95%;
+    font-size: medium;
+}

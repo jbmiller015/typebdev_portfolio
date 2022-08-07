@@ -10,8 +10,8 @@ const Education = (props) => {
 
     const imageName = () => {
         if (school === "Luther College") {
-            return <img src={LCLogo} className={"accordionImage"} alt={"LCLogo"}/>
-        } else return <img src={SULogo} className={"accordionImage"} alt={"SULogo"}/>
+            return <img src={LCLogo} className={"sliderImage"} alt={"LCLogo"}/>
+        } else return <img src={SULogo} className={"sliderImage"} alt={"SULogo"}/>
     }
 
     const fade = () => {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import moment from "moment";
 
 import useComponentVisible from "../../../Hooks/useComponentVisible";
@@ -6,14 +6,14 @@ import useComponentVisible from "../../../Hooks/useComponentVisible";
 
 const Work = (props) => {
 
+    const [title, setTitle] = useState("active");
+    const [content, setContent] = useState("");
     const {ref, isComponentVisible, setIsComponentVisible} = useComponentVisible(false);
     const {description, employer, startDate, endDate, jobTitle, location} = props.values;
 
-    console.log(description)
     const descFeed = () => {
-        return description.map((desc) => {
-            console.log(desc)
-            return (<div className="event">
+        return description.map((desc, i) => {
+            return (<div className="event" key={"event" + i}>
                 <div className="label">
                     <i className="mini angle right icon"/>
                 </div>
@@ -26,19 +26,31 @@ const Work = (props) => {
         })
     }
 
+    const setActive = () => {
+        if (title === "active") {
+            setTitle("");
+            setContent("active");
+        } else {
+            setTitle("active");
+            setContent("");
+        }
+    }
+
     const accordion = () => {
         return (<div className="ui accordion">
-            <div className={`${isComponentVisible ? "active" : ""} title`} onClick={() => {
-                setIsComponentVisible(!isComponentVisible)
+            <div className={title + " title"} onClick={() => {
+                setActive()
             }}>
-                <div className="ui top attached header"><i className="dropdown icon"/>{jobTitle}
+                <div className="ui top attached header"><i
+                    className="dropdown icon"/>{`${jobTitle}`}
                 </div>
 
             </div>
-            <div className={`${isComponentVisible ? "active" : ""} content`} ref={ref}>
+            <div className={content + " content"} ref={ref}>
                 <div className={"accordionContent"}>
                     <div className={"ui basic compact segment"}>
                         <h4 className="ui sub header">{employer}</h4>
+                        {`${moment(startDate).format("MMMM YYYY")} - ${endDate ? moment(endDate).format("MMMM YYYY") : "Present"}`}
                         <div className="ui small feed">
                             {descFeed()}
                         </div>
