@@ -1,14 +1,10 @@
 import React, {useState} from 'react';
 import moment from "moment";
 
-import useComponentVisible from "../../../Hooks/useComponentVisible";
-
-
 const Work = (props) => {
 
     const [title, setTitle] = useState("active");
     const [content, setContent] = useState("");
-    const {ref, isComponentVisible, setIsComponentVisible} = useComponentVisible(false);
     const {description, employer, startDate, endDate, jobTitle, location} = props.values;
 
     const descFeed = () => {
@@ -46,7 +42,7 @@ const Work = (props) => {
                 </div>
 
             </div>
-            <div className={content + " content"} ref={ref}>
+            <div className={content + " content"}>
                 <div className={"accordionContent"}>
                     <div className={"ui basic compact segment"}>
                         <h4 className="ui sub header">{employer}</h4>
@@ -60,27 +56,8 @@ const Work = (props) => {
         </div>);
     }
 
-    const workCards = () => {
-        return (<div className="ui card">
-            <div className="content">
-                <div className="header">{jobTitle}</div>
-            </div>
-            <div className="content">
-                <h4 className="ui sub header">{employer}</h4>
-                <div className="ui small feed">
-                    {descFeed()}
-                </div>
-            </div>
-            <div className="extra content">
-                {moment(startDate).format("MMMM YYYY") + " - " + (endDate !== "" ? moment(endDate).format("MMMM YYYY") : "Current")}
-            </div>
-        </div>)
-    }
-
 
     return (<div>
-        {//<div>{workCards()}</div>
-        }
         <div>{accordion()}</div>
     </div>);
 }

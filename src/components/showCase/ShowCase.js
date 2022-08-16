@@ -3,6 +3,7 @@ import skills from '../../info/skills.json';
 import Skill from "./skills/Skill";
 import resume from '../../info/resume.json';
 import Resume from "./resume/Resume";
+import TextPopup from "../popups/TextPopup";
 
 const ShowCase = () => {
 

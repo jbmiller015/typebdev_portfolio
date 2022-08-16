@@ -1,5 +1,4 @@
 import React from 'react';
-import Tech from "../skills/Tech";
 import Education from "./Education";
 import Work from "./Work";
 import Project from "./Project";
@@ -24,34 +23,6 @@ const Resume = (props) => {
                 return Object.entries(attributes).map((values, i) => {
                     return <Project key={"projects" + i} values={values[1]}/>
                 })
-        }
-    }
-
-    const platforms = () => {
-        if (attributes) {
-            console.log(attributes)
-            return Object.entries(attributes).map((value, i) => {
-                console.log(value)
-                return (<div>
-                    <div>{value[0]}</div>
-                    <div>{value[1]}</div>
-                </div>)
-            });
-        }
-    }
-
-    const languages = () => {
-        let lang;
-        if (attributes.languages) {
-            lang = Object.entries(attributes.languages).map((lang, i) => {
-                return <Tech key={"lang" + i} data={lang}/>
-            });
-            return (
-                <div>
-                    <label>Languages</label>
-                    {lang}
-                </div>
-            );
         }
     }
 
