@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
+import './style/popups.css'
 
 /**
  * Anchor-like text that spawns a popup message when user hovers over text.
@@ -8,19 +9,42 @@ import React from "react";
  * @returns {JSX.Element}
  * @constructor
  */
-const TextPopup = () => {
+const TextPopup = (props) => {
 
-    const renderComp = () => {
-        return (<div>
-                <div className="ui icon button"
-                     data-content="The default theme's basic popup removes the pointing arrow."
-                     data-variation="basic">
-                    <i className="add icon"></i>
+    const text = "test";
+    const header = "Header";
+    const description = "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+    const [show, setShow] = useState(false);
+
+    const popup = () => {
+        return (<div style={{
+                position: "absolute",
+                bottom: "1.2%",
+                backgroundColor: "white",
+                maxWidth: "30%",
+                overflowWrap: "break-word"
+            }}>
+                <div className={"ui segment"}>
+                    <h3 className={"ui header"}>{header}</h3>
+                    <div className={"content"}>{description}</div>
                 </div>
             </div>
         );
     }
 
-    return (<div>{renderComp()}</div>);
+    const hoverText = () => {
+        return (<div>
+            {show ? popup() : null}
+            <button
+                type="button"
+                className="link-button"
+                onMouseEnter={() => setShow(true)}
+                onMouseLeave={() => setShow(false)}>
+                {text}
+            </button>
+        </div>);
+    }
+
+    return (<div style={{flexDirection:"row", display:"flex", alignContent:"flex-start"}}><p>{text}</p>{hoverText()}<p>{text}</p></div>);
 }
 export default TextPopup;

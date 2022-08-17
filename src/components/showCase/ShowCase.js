@@ -22,6 +22,7 @@ const ShowCase = () => {
     return (<div className={"ui raised segment"}>
         {skillComp()}
         {resumeComp()}
+        <TextPopup/>
     </div>);
 }
 export default ShowCase;
