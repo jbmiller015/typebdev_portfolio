@@ -4,8 +4,12 @@ import Skill from "./skills/Skill";
 import resume from '../../info/resume.json';
 import Resume from "./resume/Resume";
 import TextPopup from "../popups/TextPopup";
+import replaceText from "../../Middleware/ReplaceText";
 
 const ShowCase = () => {
+    //TODO: Clean up
+   const {extract} = replaceText();
+   extract()
 
     const skillComp = () => {
         return Object.entries(skills).map((skill, i) => {

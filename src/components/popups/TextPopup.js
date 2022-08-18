@@ -11,15 +11,29 @@ import './style/popups.css'
  */
 const TextPopup = (props) => {
 
-    const text = "test";
-    const header = "Header";
-    const description = "DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+
+    const test = {
+        "React": {
+            "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+            "exp": {
+                "years": 3,
+                "notes": "React is one of my favorite ways to build apps and websites! The way components stack and interact with one another just makes sense to me."
+            },
+            "icon": {
+                "name": "fa-brands fa-react"
+            }
+        }
+    }
+
+    const text = Object.keys(test)[0];
+    const header = test.React.key
+    const description = test.React.description
     const [show, setShow] = useState(false);
 
     const popup = () => {
         return (<div style={{
                 position: "absolute",
-                bottom: "1.2%",
+                bottom: "1.7%",
                 backgroundColor: "white",
                 maxWidth: "30%",
                 overflowWrap: "break-word"
@@ -38,13 +52,15 @@ const TextPopup = (props) => {
             <button
                 type="button"
                 className="link-button"
-                onMouseEnter={() => setShow(true)}
+                onMouseEnter={() => setTimeout(() => {
+                    setShow(true);
+                }, 350)}
                 onMouseLeave={() => setShow(false)}>
                 {text}
             </button>
         </div>);
     }
 
-    return (<div style={{flexDirection:"row", display:"flex", alignContent:"flex-start"}}><p>{text}</p>{hoverText()}<p>{text}</p></div>);
+    return (<div style={{flexDirection:"row", display:"flex", alignContent:"flex-start"}}><p>{text + " "}</p>{hoverText()}<p>{" " + text}</p></div>);
 }
 export default TextPopup;

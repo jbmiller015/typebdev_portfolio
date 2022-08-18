@@ -4,8 +4,11 @@
     cursor: pointer;
     text-decoration: underline;
     display: inline;
-    margin: 0;
-    padding: 0;
+    margin-top: 1px;
+    padding-inline: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
     color:cadetblue;
     font-weight: bold;
+
 }
