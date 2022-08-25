@@ -1,7 +1,9 @@
 import React from 'react';
 import Tech from "./Tech";
+import replaceText from "../../../Middleware/ReplaceText";
 
 const Skill = (props) => {
+
 
     const [skillName, attributes] = props.skill;
 

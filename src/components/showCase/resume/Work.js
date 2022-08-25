@@ -1,11 +1,19 @@
 import React, {useState} from 'react';
 import moment from "moment";
+import replaceText from "../../../Middleware/ReplaceText";
 
 const Work = (props) => {
 
+    //TODO: Clean up
+    const {extract, replace} = replaceText();
+    extract()
+
     const [title, setTitle] = useState("active");
     const [content, setContent] = useState("");
-    const {description, employer, startDate, endDate, jobTitle, location} = props.values;
+    let {description, employer, startDate, endDate, jobTitle, location} = props.values;
+
+    //description = replace(description);
+
 
     const descFeed = () => {
         return description.map((desc, i) => {

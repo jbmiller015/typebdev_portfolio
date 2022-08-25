@@ -11,6 +11,8 @@ import './style/popups.css'
  */
 const TextPopup = (props) => {
 
+    const {word, data} = props;
+
 
     const test = {
         "React": {
@@ -25,18 +27,19 @@ const TextPopup = (props) => {
         }
     }
 
-    const text = Object.keys(test)[0];
-    const header = test.React.key
-    const description = test.React.description
+    const text = word
+    const header = word
+    const description = data ? data.description : ""
     const [show, setShow] = useState(false);
 
     const popup = () => {
         return (<div style={{
                 position: "absolute",
-                bottom: "1.7%",
+                bottom: "10%",
                 backgroundColor: "white",
-                maxWidth: "30%",
-                overflowWrap: "break-word"
+                width: "200%",
+                overflowWrap: "break-word",
+                zIndex: "100"
             }}>
                 <div className={"ui segment"}>
                     <h3 className={"ui header"}>{header}</h3>
@@ -61,6 +64,6 @@ const TextPopup = (props) => {
         </div>);
     }
 
-    return (<div style={{flexDirection:"row", display:"flex", alignContent:"flex-start"}}><p>{text + " "}</p>{hoverText()}<p>{" " + text}</p></div>);
+    return hoverText()
 }
 export default TextPopup;
