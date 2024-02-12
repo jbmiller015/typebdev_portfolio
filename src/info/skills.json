@@ -3,7 +3,7 @@
     "JavaScript": {
       "description": "Increasingly general-purpose programming language",
       "exp": {
-        "years": {},
+        "years": 5,
         "notes": {}
       },
       "icon": {
@@ -13,7 +13,7 @@
     "HTML": {
       "description": "HyperText Markup Language",
       "exp": {
-        "years": {},
+        "years": 4,
         "notes": {}
       },
       "icon": {
@@ -23,7 +23,7 @@
     "CSS": {
       "description": "Cascading Style Sheets",
       "exp": {
-        "years": {},
+        "years": 4,
         "notes": {}
       },
       "icon": {
@@ -33,7 +33,7 @@
     "XML": {
       "description": "eXtensible Markup Language",
       "exp": {
-        "years": {},
+        "years": 3,
         "notes": {}
       },
       "icon": {
@@ -43,7 +43,7 @@
     "TypeScript": {
       "description": "Typed superset of JavaScript",
       "exp": {
-        "years": {},
+        "years": 3,
         "notes": {}
       },
       "icon": {
@@ -53,7 +53,7 @@
     "Python": {
       "description": "General-purpose programming language",
       "exp": {
-        "years": {},
+        "years": 4,
         "notes": {}
       },
       "icon": {
@@ -63,7 +63,7 @@
     "Java": {
       "description": "General-purpose programming language",
       "exp": {
-        "years": {},
+        "years": 6,
         "notes": {}
       },
       "icon": {
@@ -73,7 +73,7 @@
     "C++": {
       "description": "General-purpose programming language",
       "exp": {
-        "years": {},
+        "years": 2,
         "notes": {}
       },
       "icon": {
@@ -83,7 +83,7 @@
     "C#": {
       "description": "General-purpose programming language",
       "exp": {
-        "years": {},
+        "years": 2,
         "notes": {}
       },
       "icon": {
@@ -144,7 +144,7 @@
       ".NET": {
         "description": ".NET is a framework for building web applications and services.",
         "exp": {
-          "years": {},
+          "years": 2,
           "notes": {}
         },
         "icon": {
@@ -154,7 +154,7 @@
       "Redux": {
         "description": "Redux is a predictable state container for JavaScript apps.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -173,7 +173,7 @@
       "Node.js": {
         "description": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -183,7 +183,7 @@
       "Express": {
         "description": "Express is a minimal and flexible Node.js web application framework.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -193,7 +193,7 @@
       "WildFly": {
         "description": "WildFly is a flexible, lightweight, managed application runtime that helps you build amazing applications.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
@@ -212,7 +212,7 @@
       "MongoDB": {
         "description": "MongoDB is a cross-platform document-oriented database program.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -222,27 +222,27 @@
       "Azure Cosmos DB": {
         "description": "Azure Cosmos DB is a fully managed NoSQL database service for modern app development.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
           "name": "fa-solid fa-code"
         }
       },
-      "Amazon DynamoDB": {
+      "DynamoDB": {
         "description": "Amazon Dynamo DB is a fully managed proprietary NoSQL database service that supports key-value and document data structures.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
           "name": "fa-solid fa-code"
         }
       },
-      "Amazon S3": {
+      "S3": {
         "description": "Amazon S3 is a scalable object storage service that allows you to store and retrieve any amount of data from anywhere on the web.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
@@ -252,7 +252,7 @@
       "MySQL": {
         "description": "MySQL is an open-source relational database management system.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
@@ -262,7 +262,7 @@
       "PostgreSQL": {
         "description": "PostgreSQL is a powerful, open-source object-relational database system.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -272,7 +272,7 @@
       "SQL Server": {
         "description": "Microsoft SQL Server is a relational database management system developed by Microsoft.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -282,7 +282,7 @@
       "Redshift": {
         "description": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -301,7 +301,7 @@
       "Bootstrap": {
         "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -311,7 +311,7 @@
       "SemanticUI": {
         "description": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -319,9 +319,9 @@
         }
       },
       "Material Design": {
-        "description": "Material Design is a design language developed by Google in 2014. Expanding on the 'card' motifs that debuted in Google Now, Material Design uses more grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.",
+        "description": "Material Design is a design language developed by Google in 2014.",
         "exp": {
-          "years": {},
+          "years": 2,
           "notes": {}
         },
         "icon": {
@@ -331,7 +331,7 @@
       "Figma": {
         "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
@@ -341,7 +341,7 @@
       "WordPress": {
         "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -359,7 +359,7 @@
       "AWS": {
         "description": "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -369,7 +369,7 @@
       "Microsoft Azure": {
         "description": "Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
         "exp": {
-          "years": {},
+          "years": 3,
           "notes": {}
         },
         "icon": {
@@ -379,7 +379,7 @@
       "Google Cloud Platform": {
         "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
         "exp": {
-          "years": {},
+          "years": 2,
           "notes": {}
         },
         "icon": {
@@ -389,7 +389,7 @@
       "Docker": {
         "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
         "exp": {
-          "years": {},
+          "years": 1,
           "notes": {}
         },
         "icon": {
@@ -414,7 +414,7 @@
       "Batch Scripting": {
         "description": "Batch scripting is a way of automating tasks in Windows.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -427,7 +427,7 @@
       "Shell Scripting": {
         "description": "Shell scripting is a way of automating tasks in Unix-like operating systems.",
         "exp": {
-          "years": {},
+          "years": 4,
           "notes": {}
         },
         "icon": {
@@ -448,7 +448,7 @@
         "JUnit": {
           "description": "JUnit is a unit testing framework for the Java programming language.",
           "exp": {
-            "years": {},
+            "years": 5,
             "notes": {}
           },
           "icon": {
@@ -458,7 +458,7 @@
         "Mocha": {
           "description": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.",
           "exp": {
-            "years": {},
+            "years": 1,
             "notes": {}
           },
           "icon": {
@@ -468,7 +468,7 @@
         "Selenium": {
           "description": "Selenium is a portable framework for testing web applications.",
           "exp": {
-            "years": {},
+            "years": 1,
             "notes": {}
           },
           "icon": {
@@ -478,7 +478,7 @@
         "Jest": {
           "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity.",
           "exp": {
-            "years": {},
+            "years": 2,
             "notes": {}
           },
           "icon": {
@@ -488,7 +488,7 @@
         "BluePrism": {
           "description": "Blue Prism is a set of tools, libraries, and runtime environments for RPA (Robotic Process Automation).",
           "exp": {
-            "years": {},
+            "years": 1,
             "notes": {}
           },
           "icon": {
@@ -498,7 +498,7 @@
         "Mockito": {
           "description": "Mockito is an open-source testing framework for Java released under the MIT License.",
           "exp": {
-            "years": {},
+            "years": 1,
             "notes": {}
           },
           "icon": {
@@ -508,7 +508,7 @@
         "Apache JMeter": {
           "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
           "exp": {
-            "years": {},
+            "years": 1,
             "notes": {}
           },
           "icon": {
