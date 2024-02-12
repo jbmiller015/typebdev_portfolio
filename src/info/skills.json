@@ -1,5 +1,98 @@
 {
+  "Languages": {
+    "JavaScript": {
+      "description": "Increasingly general-purpose programming language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-brands fa-js"
+      }
+    },
+    "HTML": {
+      "description": "HyperText Markup Language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-brands fa-html5"
+      }
+    },
+    "CSS": {
+      "description": "Cascading Style Sheets",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-brands fa-css3-alt"
+      }
+    },
+    "XML": {
+      "description": "eXtensible Markup Language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-solid fa-code"
+      }
+    },
+    "TypeScript": {
+      "description": "Typed superset of JavaScript",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-solid fa-code"
+      }
+    },
+    "Python": {
+      "description": "General-purpose programming language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-brands fa-python"
+      }
+    },
+    "Java": {
+      "description": "General-purpose programming language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-brands fa-java"
+      }
+    },
+    "C++": {
+      "description": "General-purpose programming language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-solid fa-code"
+      }
+    },
+    "C#": {
+      "description": "General-purpose programming language",
+      "exp": {
+        "years": {},
+        "notes": {}
+      },
+      "icon": {
+        "name": "fa-solid fa-code"
+      }
+    }
+  },
   "Frontend": {
+    "description": "Frontend technologies and frameworks",
     "frameworks": {
       "React": {
         "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
@@ -22,65 +115,16 @@
         }
       }
     },
-    "languages": {
-      "JavaScript": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-js"
-        }
-      },
-      "HTML": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-html5"
-        }
-      },
-      "CSS": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-css3-alt"
-        }
-      },
-      "XML": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      }
-    },
-    "projects": {
-      "Type-Beer": {
-        "description": {},
-        "stack": {},
-        "repo": {},
-        "site": {},
-        "images": {}
-      }
-    },
+    "languages": ["JavaScript", "HTML", "CSS", "XML"],
     "icon": {
       "name": "fa-solid fa-display"
     }
   },
   "Mobile": {
+    "description": "Mobile app development technologies.",
     "frameworks": {
       "React-Native": {
-        "description": {},
+        "description": "React Native is a framework for building mobile applications using React.",
         "exp": {
           "years": {},
           "notes": {}
@@ -90,15 +134,15 @@
         }
       }
     },
-    "projects": {},
     "icon": {
       "name": "fa-solid fa-mobile-screen-button"
     }
   },
   "Fullstack": {
+    "description": "Fullstack development technologies and frameworks",
     "frameworks": {
       ".NET": {
-        "description": {},
+        "description": ".NET is a framework for building web applications and services.",
         "exp": {
           "years": {},
           "notes": {}
@@ -108,7 +152,7 @@
         }
       },
       "Redux": {
-        "description": {},
+        "description": "Redux is a predictable state container for JavaScript apps.",
         "exp": {
           "years": {},
           "notes": {}
@@ -118,47 +162,16 @@
         }
       }
     },
-    "languages": {
-      "JavaScript": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-js"
-        }
-      },
-      "TypeScript": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Python": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-python"
-        }
-      }
-    },
-    "projects": {},
+    "languages": ["JavaScript", "TypeScript", "Python"],
     "icon": {
       "name": "fa-solid fa-pancakes"
     }
   },
   "Backend": {
+    "description": "Backend technologies and frameworks",
     "frameworks": {
       "Node.js": {
-        "description": {},
+        "description": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.",
         "exp": {
           "years": {},
           "notes": {}
@@ -168,7 +181,7 @@
         }
       },
       "Express": {
-        "description": {},
+        "description": "Express is a minimal and flexible Node.js web application framework.",
         "exp": {
           "years": {},
           "notes": {}
@@ -178,7 +191,7 @@
         }
       },
       "WildFly": {
-        "description": {},
+        "description": "WildFly is a flexible, lightweight, managed application runtime that helps you build amazing applications.",
         "exp": {
           "years": {},
           "notes": {}
@@ -188,57 +201,16 @@
         }
       }
     },
-    "languages": {
-      "Java": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-java"
-        }
-      },
-      "C++": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "C#": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Python": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-python"
-        }
-      }
-    },
-    "projects": {},
+    "languages": ["Java", "C++", "C#", "Python"],
     "icon": {
       "name": "fa-solid fa-server"
     }
   },
   "Data": {
+    "description": "Data storage and management technologies",
     "frameworks": {
       "MongoDB": {
-        "description": {},
+        "description": "MongoDB is a cross-platform document-oriented database program.",
         "exp": {
           "years": {},
           "notes": {}
@@ -248,7 +220,7 @@
         }
       },
       "Azure Cosmos DB": {
-        "description": {},
+        "description": "Azure Cosmos DB is a fully managed NoSQL database service for modern app development.",
         "exp": {
           "years": {},
           "notes": {}
@@ -258,7 +230,7 @@
         }
       },
       "Amazon DynamoDB": {
-        "description": {},
+        "description": "Amazon Dynamo DB is a fully managed proprietary NoSQL database service that supports key-value and document data structures.",
         "exp": {
           "years": {},
           "notes": {}
@@ -268,7 +240,7 @@
         }
       },
       "Amazon S3": {
-        "description": {},
+        "description": "Amazon S3 is a scalable object storage service that allows you to store and retrieve any amount of data from anywhere on the web.",
         "exp": {
           "years": {},
           "notes": {}
@@ -278,7 +250,7 @@
         }
       },
       "MySQL": {
-        "description": {},
+        "description": "MySQL is an open-source relational database management system.",
         "exp": {
           "years": {},
           "notes": {}
@@ -288,7 +260,7 @@
         }
       },
       "PostgreSQL": {
-        "description": {},
+        "description": "PostgreSQL is a powerful, open-source object-relational database system.",
         "exp": {
           "years": {},
           "notes": {}
@@ -298,7 +270,7 @@
         }
       },
       "SQL Server": {
-        "description": {},
+        "description": "Microsoft SQL Server is a relational database management system developed by Microsoft.",
         "exp": {
           "years": {},
           "notes": {}
@@ -308,7 +280,7 @@
         }
       },
       "Redshift": {
-        "description": {},
+        "description": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.",
         "exp": {
           "years": {},
           "notes": {}
@@ -318,37 +290,16 @@
         }
       }
     },
-    "languages": {
-      "SQL": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "NoSQL": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      }
-    },
-    "projects": {},
+    "languages": ["SQL", "NoSQL"],
     "icon": {
       "name": "fa-solid fa-database"
     }
   },
   "UI/UX": {
+    "description": "User Interface and User Experience design technologies and frameworks",
     "frameworks": {
       "Bootstrap": {
-        "description": {},
+        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
         "exp": {
           "years": {},
           "notes": {}
@@ -358,7 +309,7 @@
         }
       },
       "SemanticUI": {
-        "description": {},
+        "description": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.",
         "exp": {
           "years": {},
           "notes": {}
@@ -368,7 +319,7 @@
         }
       },
       "Material Design": {
-        "description": {},
+        "description": "Material Design is a design language developed by Google in 2014. Expanding on the 'card' motifs that debuted in Google Now, Material Design uses more grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.",
         "exp": {
           "years": {},
           "notes": {}
@@ -378,7 +329,7 @@
         }
       },
       "Figma": {
-        "description": {},
+        "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
         "exp": {
           "years": {},
           "notes": {}
@@ -388,7 +339,7 @@
         }
       },
       "WordPress": {
-        "description": {},
+        "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.",
         "exp": {
           "years": {},
           "notes": {}
@@ -403,9 +354,10 @@
     }
   },
   "Cloud": {
+    "description": "Cloud computing platforms and services",
     "frameworks": {
       "AWS": {
-        "description": {},
+        "description": "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
         "exp": {
           "years": {},
           "notes": {}
@@ -415,7 +367,7 @@
         }
       },
       "Microsoft Azure": {
-        "description": {},
+        "description": "Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
         "exp": {
           "years": {},
           "notes": {}
@@ -425,7 +377,7 @@
         }
       },
       "Google Cloud Platform": {
-        "description": {},
+        "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
         "exp": {
           "years": {},
           "notes": {}
@@ -435,7 +387,7 @@
         }
       },
       "Docker": {
-        "description": {},
+        "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.",
         "exp": {
           "years": {},
           "notes": {}
@@ -445,21 +397,22 @@
         }
       }
     },
-    "projects": {},
     "icon": {
       "name": "fa-solid fa-cloud"
     }
   },
   "Machine Learning & AI": {
-    "projects": {},
+    "description": "Machine learning and artificial intelligence technologies and frameworks",
     "icon": {
       "name": "fa-solid fa-brain-circuit"
     }
   },
   "Scripting": {
+    "description": "Scripting languages and automation tools",
     "Windows": {
+      "description": "Scripting on Windows operating system",
       "Batch Scripting": {
-        "description": {},
+        "description": "Batch scripting is a way of automating tasks in Windows.",
         "exp": {
           "years": {},
           "notes": {}
@@ -470,8 +423,9 @@
       }
     },
     "Linux": {
+      "description": "Scripting on Linux operating system",
       "Shell Scripting": {
-        "description": {},
+        "description": "Shell scripting is a way of automating tasks in Unix-like operating systems.",
         "exp": {
           "years": {},
           "notes": {}
@@ -482,96 +436,89 @@
       }
     },
     "general": {
-      "Python": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-brands fa-python"
-        }
+      "description": "General-purpose scripting language",
+      "languages": ["Python"],
+      "icon": {
+        "name": "fa-solid fa-scroll"
       }
     },
-    "icon": {
-      "name": "fa-solid fa-scroll"
-    }
-  },
-  "Testing and Automation": {
-    "frameworks": {
-      "JUnit": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
+    "Testing and Automation": {
+      "description": "Testing and automation frameworks and tools",
+      "frameworks": {
+        "JUnit": {
+          "description": "JUnit is a unit testing framework for the Java programming language.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
         },
-        "icon": {
-          "name": "fa-solid fa-code"
+        "Mocha": {
+          "description": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
+        },
+        "Selenium": {
+          "description": "Selenium is a portable framework for testing web applications.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
+        },
+        "Jest": {
+          "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
+        },
+        "BluePrism": {
+          "description": "Blue Prism is a set of tools, libraries, and runtime environments for RPA (Robotic Process Automation).",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
+        },
+        "Mockito": {
+          "description": "Mockito is an open-source testing framework for Java released under the MIT License.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
+        },
+        "Apache JMeter": {
+          "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services, with a focus on web applications.",
+          "exp": {
+            "years": {},
+            "notes": {}
+          },
+          "icon": {
+            "name": "fa-solid fa-code"
+          }
         }
       },
-      "Mocha": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Selenium": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Jest": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "BluePrism": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Mockito": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Apache JMeter": {
-        "description": {},
-        "exp": {
-          "years": {},
-          "notes": {}
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
+      "icon": {
+        "name": "fa-solid fa-flask-vial"
       }
-    },
-    "icon": {
-      "name": "fa-solid fa-flask-vial"
     }
   }
 }
