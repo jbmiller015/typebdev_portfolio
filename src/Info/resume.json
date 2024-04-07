@@ -28,10 +28,10 @@
   "Career": [
     {
       "startDate": "2021-08-01",
-      "endDate": "",
+      "endDate": null,
       "location": "Remote",
       "jobTitle": "Software Developer",
-      "employer": "CodeObjects (An Insurity Company)",
+      "employer": "Insurity",
       "description": [
         "Designed, developed, and tested solutions to complex business problems using Java, XML, and SQL.",
         "Participated in daily standups, regular code reviews, and sprint planning as part of an Agile development team.",
@@ -87,6 +87,18 @@
         "Designed a product performance report system using Python and SQL that improved reporting time by 84%.",
         "Identified computing error and facilitated a solution that saved the company 10% on cost of every shipment.",
         "Automated inbound tracking process to provide process clarity and improve arrival time prediction by 15%."
+      ]
+    },
+    {
+      "startDate": "2017-02-01",
+      "endDate": "2018-04-31",
+      "location": "Seattle, WA",
+      "jobTitle": "Technical Recruiter",
+      "employer": "Amazon",
+      "description": [
+        "Created an applicant tracking tool using SQL and VBA to reduce candidate viability analysis time by 300%.",
+        "Developed an Employee Referral tracking tool to improve visibility for recruiters and business stakeholders.",
+        "Wrote queries in ATS recruiting software to identify viable candidates for specialized technical roles."
       ]
     }
   ]
