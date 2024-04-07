@@ -1,99 +1,123 @@
 {
   "Languages": {
-    "JavaScript": {
-      "description": "Increasingly general-purpose programming language",
-      "exp": {
-        "years": 5,
-        "notes": "JavaScript was the first language I learned when diving into web development. I still remember the excitement of seeing my first interactive webpage come to life!"
+    "description": "",
+    "icon": "",
+    "skills": {
+      "JavaScript": {
+        "description": "Increasingly general-purpose programming language",
+        "exp": {
+          "years": 5,
+          "notes": "JavaScript was the first language I learned when diving into web development. I still remember the excitement of seeing my first interactive webpage come to life!"
+        },
+        "icon": {
+          "name": "fa-brands fa-js"
+        }
       },
-      "icon": {
-        "name": "fa-brands fa-js"
-      }
-    },
-    "HTML": {
-      "description": "HyperText Markup Language",
-      "exp": {
-        "years": 4,
-        "notes": "HTML was like my gateway into the world of coding. Creating my first webpage with HTML felt like unlocking a new realm of creativity."
+      "HTML": {
+        "description": "HyperText Markup Language",
+        "exp": {
+          "years": 4,
+          "notes": "HTML was like my gateway into the world of coding. Creating my first webpage with HTML felt like unlocking a new realm of creativity."
+        },
+        "icon": {
+          "name": "fa-brands fa-html5"
+        }
       },
-      "icon": {
-        "name": "fa-brands fa-html5"
-      }
-    },
-    "CSS": {
-      "description": "Cascading Style Sheets",
-      "exp": {
-        "years": 4,
-        "notes": "CSS is where the magic of design happens! I remember the first time I styled a webpage and saw how CSS transformed its appearance."
+      "CSS": {
+        "description": "Cascading Style Sheets",
+        "exp": {
+          "years": 4,
+          "notes": "CSS is where the magic of design happens! I remember the first time I styled a webpage and saw how CSS transformed its appearance."
+        },
+        "icon": {
+          "name": "fa-brands fa-css3-alt"
+        }
       },
-      "icon": {
-        "name": "fa-brands fa-css3-alt"
-      }
-    },
-    "XML": {
-      "description": "eXtensible Markup Language",
-      "exp": {
-        "years": 3,
-        "notes": "XML was crucial for structuring data in one of my early projects. It made handling complex data sets feel manageable and organized."
+      "XML": {
+        "description": "eXtensible Markup Language",
+        "exp": {
+          "years": 3,
+          "notes": "XML was crucial for structuring data in one of my early projects. It made handling complex data sets feel manageable and organized."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       },
-      "icon": {
-        "name": "fa-solid fa-code"
-      }
-    },
-    "TypeScript": {
-      "description": "Typed superset of JavaScript",
-      "exp": {
-        "years": 3,
-        "notes": "TypeScript has been a game-changer for me, especially in larger projects where type safety is essential. It helped catch bugs early and improved my code quality."
+      "TypeScript": {
+        "description": "Typed superset of JavaScript",
+        "exp": {
+          "years": 3,
+          "notes": "TypeScript has been a game-changer for me, especially in larger projects where type safety is essential. It helped catch bugs early and improved my code quality."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       },
-      "icon": {
-        "name": "fa-solid fa-code"
-      }
-    },
-    "Python": {
-      "description": "General-purpose programming language",
-      "exp": {
-        "years": 4,
-        "notes": "Python was my first love in programming. Its simplicity and readability made learning to code a breeze, and I've been hooked ever since."
+      "Python": {
+        "description": "General-purpose programming language",
+        "exp": {
+          "years": 4,
+          "notes": "Python feels like it's always there when I need it. Its simplicity and readability made learning to code a breeze, and I've been using it in a variety of ways from AI to scripting ever since."
+        },
+        "icon": {
+          "name": "fa-brands fa-python"
+        }
       },
-      "icon": {
-        "name": "fa-brands fa-python"
-      }
-    },
-    "Java": {
-      "description": "General-purpose programming language",
-      "exp": {
-        "years": 6,
-        "notes": "Java holds a special place in my heart as it was the language I learned during my university days. It taught me the fundamentals of programming and problem-solving."
+      "Java": {
+        "description": "General-purpose programming language",
+        "exp": {
+          "years": 6,
+          "notes": "Java holds a special place in my heart as it was the language I learned during my university days. It taught me the fundamentals of programming and problem-solving."
+        },
+        "icon": {
+          "name": "fa-brands fa-java"
+        }
       },
-      "icon": {
-        "name": "fa-brands fa-java"
-      }
-    },
-    "C++": {
-      "description": "General-purpose programming language",
-      "exp": {
-        "years": 2,
-        "notes": "C++ was my first dive into lower-level programming, and it was a rollercoaster ride of challenges and triumphs. Building efficient algorithms in C++ was incredibly satisfying."
+      "C++": {
+        "description": "General-purpose programming language",
+        "exp": {
+          "years": 2,
+          "notes": "C++ was my first dive into lower-level programming, and it was a rollercoaster ride of challenges and triumphs. Building efficient algorithms in C++ was incredibly satisfying."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       },
-      "icon": {
-        "name": "fa-solid fa-code"
-      }
-    },
-    "C#": {
-      "description": "General-purpose programming language",
-      "exp": {
-        "years": 2,
-        "notes": "C# was the language I used to develop my first game. The experience was exhilarating, and it opened my eyes to the world of game development."
+      "C#": {
+        "description": "General-purpose programming language",
+        "exp": {
+          "years": 2,
+          "notes": "C# was the language I used to develop my first game. The experience was exhilarating, and it opened my eyes to the world of game development."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       },
-      "icon": {
-        "name": "fa-solid fa-code"
+      "SQL": {
+        "description": "Domain-specific language used to handle relational data.",
+        "exp": {
+          "years": 6,
+          "notes": "SQL has been the backbone of many of my database projects during grad school and continues to be primary in my professional career. Its power and versatility in handling relational databases have been invaluable in creating efficient and scalable data solutions."
+        },
+        "icon": {
+          "name": "fa-solid fa-database"
+        }
+      },
+      "NoSQL": {
+        "description": "Databases that store data in a format other than relational tables.",
+        "exp": {
+          "years": 4,
+          "notes": "NoSQL databases have been a game-changer for me, especially in projects requiring flexible schema and scalability. Their document-based or key-value approach fits perfectly with modern application development."
+        },
+        "icon": {
+          "name": "fa-solid fa-database"
+        }
       }
     }
   },
   "Frontend": {
     "description": "Frontend technologies and frameworks",
-    "frameworks": {
+    "skills": {
       "React": {
         "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
         "exp": {
@@ -128,7 +152,7 @@
   },
   "Mobile": {
     "description": "Mobile app development technologies.",
-    "frameworks": {
+    "skills": {
       "React-Native": {
         "description": "React Native is a framework for building mobile applications using React.",
         "exp": {
@@ -140,13 +164,18 @@
         }
       }
     },
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
     "icon": {
       "name": "fa-solid fa-mobile-screen-button"
     }
   },
   "Fullstack": {
     "description": "Fullstack development technologies and frameworks",
-    "frameworks": {
+    "skills": {
       ".NET": {
         "description": ".NET is a framework for building web applications and services.",
         "exp": {
@@ -179,7 +208,7 @@
   },
   "Backend": {
     "description": "Backend technologies and frameworks",
-    "frameworks": {
+    "skills": {
       "Node.js": {
         "description": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.",
         "exp": {
@@ -223,7 +252,7 @@
   },
   "Data": {
     "description": "Data storage and management technologies",
-    "frameworks": {
+    "skills": {
       "MongoDB": {
         "description": "MongoDB is a cross-platform document-oriented database program.",
         "exp": {
@@ -315,7 +344,7 @@
   },
   "UI/UX": {
     "description": "User Interface and User Experience design technologies and frameworks",
-    "frameworks": {
+    "skills": {
       "Bootstrap": {
         "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
         "exp": {
@@ -373,7 +402,7 @@
   },
   "Cloud": {
     "description": "Cloud computing platforms and services",
-    "frameworks": {
+    "skills": {
       "AWS": {
         "description": "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
         "exp": {
@@ -423,13 +452,70 @@
     "description": "Machine learning and artificial intelligence technologies and frameworks",
     "icon": {
       "name": "fa-solid fa-brain-circuit"
+    },
+    "languages": [
+      "Python"
+    ],
+    "skills": {
+      "Pandas": {
+        "description": "Pandas is a fast, powerful, flexible, and easy-to-use open-source data manipulation and analysis library built on top of the Python programming language.",
+        "exp": {
+          "years": 3,
+          "notes": "Pandas has been my go-to tool for data manipulation and analysis in Python. Its intuitive API and powerful features make handling data a breeze."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Numpy": {
+        "description": "NumPy is the fundamental package for scientific computing with Python. It contains among other things a powerful N-dimensional array object.",
+        "exp": {
+          "years": 3,
+          "notes": "NumPy has been instrumental in my scientific computing projects. Its array operations and mathematical functions make numerical computations efficient and straightforward."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "TensorFlow": {
+        "description": "TensorFlow is an end-to-end open-source platform for machine learning.",
+        "exp": {
+          "years": 2,
+          "notes": "TensorFlow has been my preferred deep learning framework for building and training neural networks. Its flexibility and scalability make it suitable for projects of any scale."
+        },
+        "icon": {
+          "name": "fa-brands fa-tensorflow"
+        }
+      },
+      "PyTorch": {
+        "description": "PyTorch is an open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
+        "exp": {
+          "years": 2,
+          "notes": "PyTorch has revolutionized my deep learning projects with its dynamic computation graph and intuitive API. Its flexibility and ease of use make prototyping and experimentation a joy."
+        },
+        "icon": {
+          "name": "fa-brands fa-pytorch"
+        }
+      },
+      "Scikit-learn": {
+        "description": "Scikit-learn is a free software machine learning library for the Python programming language.",
+        "exp": {
+          "years": 3,
+          "notes": "Scikit-learn has been my trusted companion for classical machine learning tasks. Its simple and efficient tools for data mining and data analysis make it a must-have in my toolkit."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      }
     }
   },
   "Scripting": {
     "description": "Scripting languages and automation tools",
-    "Windows": {
-      "description": "Scripting on Windows operating system",
-      "Batch Scripting": {
+    "icon": {
+      "name": "fa-solid fa-brain-circuit"
+    },
+    "skills": {
+      "Windows Batch Scripting": {
         "description": "Batch scripting is a way of automating tasks in Windows.",
         "exp": {
           "years": 4,
@@ -438,11 +524,8 @@
         "icon": {
           "name": "fa-brands fa-windows"
         }
-      }
-    },
-    "Linux": {
-      "description": "Scripting on Linux operating system",
-      "Shell Scripting": {
+      },
+      "Linux Shell Scripting": {
         "description": "Shell scripting is a way of automating tasks in Unix-like operating systems.",
         "exp": {
           "years": 4,
@@ -451,94 +534,96 @@
         "icon": {
           "name": "fa-brands fa-linux"
         }
+      },
+      "All-Purpose Automation Scripting": {
+        "description": "General-purpose scripting language",
+        "languages": [
+          "Python"
+        ],
+        "icon": {
+          "name": "fa-solid fa-scroll"
+        }
       }
-    },
-    "general": {
-      "description": "General-purpose scripting language",
-      "languages": [
-        "Python"
-      ],
-      "icon": {
-        "name": "fa-solid fa-scroll"
-      }
-    },
-    "Testing and Automation": {
-      "description": "Testing and automation frameworks and tools",
-      "frameworks": {
-        "JUnit": {
-          "description": "JUnit is a unit testing framework for the Java programming language.",
-          "exp": {
-            "years": 5,
-            "notes": "JUnit was my first and still has been my go-to framework for unit testing in Java. Its simplicity and extensive documentation make writing and running tests a breeze."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
+    }
+  },
+  "Testing and Automation": {
+    "description": "Testing and automation frameworks and tools",
+    "skills": {
+      "JUnit": {
+        "description": "JUnit is a unit testing framework for the Java programming language.",
+        "exp": {
+          "years": 5,
+          "notes": "JUnit was my first and still has been my go-to framework for unit testing in Java. Its simplicity and extensive documentation make writing and running tests a breeze."
         },
-        "Mocha": {
-          "description": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.",
-          "exp": {
-            "years": 1,
-            "notes": "Mocha has been my preferred choice for testing JavaScript applications. Its support for asynchronous testing and flexible assertions make it a joy to work with."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
-        },
-        "Selenium": {
-          "description": "Selenium is a portable framework for testing web applications.",
-          "exp": {
-            "years": 1,
-            "notes": "Selenium has been instrumental in ensuring the quality of my web applications. Its cross-browser testing capabilities have saved me from many compatibility headaches."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
-        },
-        "Jest": {
-          "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity.",
-          "exp": {
-            "years": 2,
-            "notes": "Jest has made testing JavaScript applications a breeze with its intuitive API and built-in mocking capabilities. It's my go-to choice for frontend testing."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
-        },
-        "BluePrism": {
-          "description": "Blue Prism is a set of tools, libraries, and runtime environments for RPA (Robotic Process Automation).",
-          "exp": {
-            "years": 1,
-            "notes": "Blue Prism has opened up new possibilities for automating repetitive tasks in my workflow. Its drag-and-drop interface makes building automation processes a breeze."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
-        },
-        "Mockito": {
-          "description": "Mockito is an open-source testing framework for Java released under the MIT License.",
-          "exp": {
-            "years": 1,
-            "notes": "Mockito has been invaluable in my Java projects for creating mock objects and verifying interactions between components. Its simplicity and flexibility make testing a pleasure."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
-        },
-        "Apache JMeter": {
-          "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services.",
-          "exp": {
-            "years": 1,
-            "notes": "Apache JMeter has been my go-to tool for load testing web applications. Its extensibility and rich feature set make it a powerful tool for performance testing."
-          },
-          "icon": {
-            "name": "fa-solid fa-code"
-          }
+        "icon": {
+          "name": "fa-solid fa-code"
         }
       },
-      "icon": {
-        "name": "fa-solid fa-robot"
+      "Mocha": {
+        "description": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.",
+        "exp": {
+          "years": 1,
+          "notes": "Mocha has been my preferred choice for testing JavaScript applications. Its support for asynchronous testing and flexible assertions make it a joy to work with."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Selenium": {
+        "description": "Selenium is a portable framework for testing web applications.",
+        "exp": {
+          "years": 1,
+          "notes": "Selenium has been instrumental in ensuring the quality of my web applications. Its cross-browser testing capabilities have saved me from many compatibility headaches."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Jest": {
+        "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity.",
+        "exp": {
+          "years": 2,
+          "notes": "Jest has made testing JavaScript applications a breeze with its intuitive API and built-in mocking capabilities. It's my go-to choice for frontend testing."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "BluePrism": {
+        "description": "Blue Prism is a set of tools, libraries, and runtime environments for RPA (Robotic Process Automation).",
+        "exp": {
+          "years": 1,
+          "notes": "Blue Prism has opened up new possibilities for automating repetitive tasks in my workflow. Its drag-and-drop interface makes building automation processes a breeze."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Mockito": {
+        "description": "Mockito is an open-source testing framework for Java released under the MIT License.",
+        "exp": {
+          "years": 1,
+          "notes": "Mockito has been invaluable in my Java projects for creating mock objects and verifying interactions between components. Its simplicity and flexibility make testing a pleasure."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Apache JMeter": {
+        "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services.",
+        "exp": {
+          "years": 1,
+          "notes": "Apache JMeter has been my go-to tool for load testing web applications. Its extensibility and rich feature set make it a powerful tool for performance testing."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       }
+    },
+    "icon": {
+      "name": "fa-solid fa-robot"
     }
   }
 }
+
+
