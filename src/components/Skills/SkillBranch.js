@@ -11,6 +11,7 @@ const SkillBranch = ({branch}) => {
         setExpanded(!expanded);
     };
 
+    console.log(branch)
     const [branchName, branchObj] = branch;
     return (
         <div className="skill-branch">

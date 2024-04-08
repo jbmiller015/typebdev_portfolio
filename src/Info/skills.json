@@ -150,6 +150,64 @@
       "name": "fa-solid fa-display"
     }
   },
+  "UI/UX": {
+    "description": "User Interface and User Experience design technologies and frameworks",
+    "skills": {
+      "Bootstrap": {
+        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+        "exp": {
+          "years": 1,
+          "notes": "Bootstrap has been my go-to choice for rapidly prototyping user interfaces. Its extensive set of components and responsive design make UI development a breeze."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "SemanticUI": {
+        "description": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.",
+        "exp": {
+          "years": 4,
+          "notes": "Semantic UI's intuitive syntax and modular approach have made UI design a pleasure for me. Its focus on readability and accessibility aligns perfectly with my design philosophy."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Material Design": {
+        "description": "Material Design is a design language developed by Google in 2014.",
+        "exp": {
+          "years": 2,
+          "notes": "Material Design's principles of motion and depth have transformed the way I approach UI design. Its emphasis on real-world interactions creates immersive experiences that users love."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Figma": {
+        "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
+        "exp": {
+          "years": 3,
+          "notes": "Figma has become an indispensable tool in my design workflow. Its collaborative features and seamless integration with other tools have streamlined my design process."
+        },
+        "icon": {
+          "name": "fa-brands fa-figma"
+        }
+      },
+      "WordPress": {
+        "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.",
+        "exp": {
+          "years": 1,
+          "notes": "WordPress was my first foray into web design. Its simplicity and extensibility allowed me to create stunning websites in a short period of time."
+        },
+        "icon": {
+          "name": "fa-brands fa-wordpress"
+        }
+      }
+    },
+    "icon": {
+      "name": "fa-solid fa-browser"
+    }
+  },
   "Mobile": {
     "description": "Mobile app development technologies.",
     "skills": {
@@ -340,64 +398,6 @@
     ],
     "icon": {
       "name": "fa-solid fa-database"
-    }
-  },
-  "UI/UX": {
-    "description": "User Interface and User Experience design technologies and frameworks",
-    "skills": {
-      "Bootstrap": {
-        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
-        "exp": {
-          "years": 1,
-          "notes": "Bootstrap has been my go-to choice for rapidly prototyping user interfaces. Its extensive set of components and responsive design make UI development a breeze."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "SemanticUI": {
-        "description": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.",
-        "exp": {
-          "years": 4,
-          "notes": "Semantic UI's intuitive syntax and modular approach have made UI design a pleasure for me. Its focus on readability and accessibility aligns perfectly with my design philosophy."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Material Design": {
-        "description": "Material Design is a design language developed by Google in 2014.",
-        "exp": {
-          "years": 2,
-          "notes": "Material Design's principles of motion and depth have transformed the way I approach UI design. Its emphasis on real-world interactions creates immersive experiences that users love."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Figma": {
-        "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
-        "exp": {
-          "years": 3,
-          "notes": "Figma has become an indispensable tool in my design workflow. Its collaborative features and seamless integration with other tools have streamlined my design process."
-        },
-        "icon": {
-          "name": "fa-brands fa-figma"
-        }
-      },
-      "WordPress": {
-        "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.",
-        "exp": {
-          "years": 1,
-          "notes": "WordPress was my first foray into web design. Its simplicity and extensibility allowed me to create stunning websites in a short period of time."
-        },
-        "icon": {
-          "name": "fa-brands fa-wordpress"
-        }
-      }
-    },
-    "icon": {
-      "name": "fa-solid fa-browser"
     }
   },
   "Cloud": {
