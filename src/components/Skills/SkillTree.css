@@ -1,13 +1,14 @@
 .skill-tree:before {
-    background-image: url("/src/Resources/images/img.png");
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
+
     filter: grayscale(100%) opacity(10%);
     z-index: -1;
 }
 
 .skill-tree {
-    z-index: 0;
+    background-image: url("/src/Resources/images/imgfiltered.png");
+    background-size: 55% 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     width: 100%;
