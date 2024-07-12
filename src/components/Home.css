@@ -15,15 +15,27 @@
 
 .Header {
     padding: 10px 0;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: space-around;
-    min-height: 100vh;
-    min-width: 150vh;
-    outline: solid;
-    outline-offset: -5vh;
+    min-height: 80vh;
+    min-width: 120vh;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+}
+
+.ButtonSections {
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    bottom: 40%;
 }
 
 .Header h1 {
@@ -39,12 +51,13 @@
 
 }
 
-.Header nav ul {
+.ButtonSections nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-.Header nav li {
+.ButtonSections nav li {
+    position: fixed;
     display: inline-block;
     margin-right: 10px;
     font-size: 18px;
@@ -53,11 +66,11 @@
     transition: font-weight 1s;
 }
 
-.Header nav li:hover {
+.ButtonSections nav li:hover {
     opacity: 100%;
 }
 
-.Header nav li a::after {
+.ButtonSections nav li a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -69,32 +82,32 @@
     transition: opacity 300ms, transform 300ms;
 }
 
-.Header nav li a:hover::after,
-.Header nav li a:focus::after {
+.ButtonSections nav li a:hover::after,
+.ButtonSections nav li a:focus::after {
     opacity: 1;
     transform: translate(0.2em, 0);
 }
 
 /* Slide in */
-.Header nav li a {
+.ButtonSections nav li a {
     font-family: inherit;
     color: #1f1e1c;
     overflow: hidden;
     cursor: default;
 }
 
-.Header nav li a::after {
+.ButtonSections nav li a::after {
     opacity: 1;
     transform: translate(-100%, 0);
 }
 
-.Header nav li a:hover::after,
-.Header nav li a:focus::after {
+.ButtonSections nav li a:hover::after,
+.ButtonSections nav li a:focus::after {
     transform: translate(0, 0);
 }
 
 /* Underline styles */
-.Header nav li a {
+.ButtonSections nav li a {
     display: block;
     position: relative;
     padding: 0.2em 0;

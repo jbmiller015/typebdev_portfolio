@@ -112,6 +112,16 @@
         "icon": {
           "name": "fa-solid fa-database"
         }
+      },
+      "Prolog": {
+        "description": "Prolog is a logic programming language that has its origins in artificial intelligence, automated theorem proving and computational linguistics.",
+        "exp": {
+          "years": 1,
+          "notes": "I used Prolog to program agent logic during research into ai development."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
       }
     }
   },
@@ -454,54 +464,85 @@
       "name": "fa-solid fa-brain-circuit"
     },
     "languages": [
-      "Python"
+      "Python",
+      "Prolog"
     ],
     "skills": {
       "Pandas": {
-        "description": "Pandas is a fast, powerful, flexible, and easy-to-use open-source data manipulation and analysis library built on top of the Python programming language.",
+        "description": "Pandas is a powerful and flexible open-source data manipulation and analysis library for Python, providing data structures like DataFrame and Series for easy handling of structured data.",
         "exp": {
           "years": 3,
-          "notes": "Pandas has been my go-to tool for data manipulation and analysis in Python. Its intuitive API and powerful features make handling data a breeze."
+          "notes": "I've used Pandas extensively for cleaning, transforming, and analyzing large datasets. Its user-friendly API and rich functionality simplify complex data operations."
         },
         "icon": {
           "name": "fa-solid fa-code"
         }
       },
       "Numpy": {
-        "description": "NumPy is the fundamental package for scientific computing with Python. It contains among other things a powerful N-dimensional array object.",
+        "description": "NumPy is the core library for numerical computing in Python, offering support for large multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on them.",
         "exp": {
           "years": 3,
-          "notes": "NumPy has been instrumental in my scientific computing projects. Its array operations and mathematical functions make numerical computations efficient and straightforward."
+          "notes": "NumPy has been a cornerstone in my data processing tasks, enabling efficient numerical calculations and seamless integration with other scientific libraries."
         },
         "icon": {
           "name": "fa-solid fa-code"
         }
       },
       "TensorFlow": {
-        "description": "TensorFlow is an end-to-end open-source platform for machine learning.",
+        "description": "TensorFlow is a comprehensive open-source platform for machine learning, providing tools for building, training, and deploying machine learning models at scale.",
         "exp": {
           "years": 2,
-          "notes": "TensorFlow has been my preferred deep learning framework for building and training neural networks. Its flexibility and scalability make it suitable for projects of any scale."
+          "notes": "TensorFlow has been my go-to framework for developing deep learning models. Its robustness and extensive ecosystem make it ideal for both research and production applications."
         },
         "icon": {
           "name": "fa-brands fa-tensorflow"
         }
       },
       "PyTorch": {
-        "description": "PyTorch is an open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing.",
+        "description": "PyTorch is a popular open-source machine learning library based on Torch, known for its dynamic computation graph and ease of use, particularly in deep learning applications.",
         "exp": {
           "years": 2,
-          "notes": "PyTorch has revolutionized my deep learning projects with its dynamic computation graph and intuitive API. Its flexibility and ease of use make prototyping and experimentation a joy."
+          "notes": "PyTorch has transformed my approach to deep learning with its dynamic nature and intuitive design. It has been particularly beneficial for rapid prototyping and research experimentation."
         },
         "icon": {
           "name": "fa-brands fa-pytorch"
         }
       },
       "Scikit-learn": {
-        "description": "Scikit-learn is a free software machine learning library for the Python programming language.",
+        "description": "Scikit-learn is a versatile machine learning library for Python, offering simple and efficient tools for data mining and data analysis, built on NumPy, SciPy, and matplotlib.",
         "exp": {
           "years": 3,
-          "notes": "Scikit-learn has been my trusted companion for classical machine learning tasks. Its simple and efficient tools for data mining and data analysis make it a must-have in my toolkit."
+          "notes": "Scikit-learn has been indispensable for my classical machine learning projects. Its comprehensive suite of algorithms and tools for model selection, validation, and preprocessing streamline the development process."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Model Engineering": {
+        "description": "Model engineering involves the design, development, and optimization of machine learning models to solve specific problems effectively and efficiently.",
+        "exp": {
+          "years": 1,
+          "notes": "My experience in model engineering includes designing robust architectures, optimizing hyperparameters, and ensuring models meet performance and accuracy requirements."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Model Validation": {
+        "description": "Model validation is the process of evaluating machine learning models to ensure they generalize well to new, unseen data and meet the desired performance criteria.",
+        "exp": {
+          "years": 1,
+          "notes": "I have applied various validation techniques, such as cross-validation and A/B testing, to rigorously assess model performance and prevent overfitting."
+        },
+        "icon": {
+          "name": "fa-solid fa-code"
+        }
+      },
+      "Model Training": {
+        "description": "Model training is the process of teaching a machine learning model to recognize patterns in data by adjusting its parameters based on a training dataset.",
+        "exp": {
+          "years": 1,
+          "notes": "I have trained numerous models, leveraging techniques like gradient descent and regularization to optimize performance and ensure convergence."
         },
         "icon": {
           "name": "fa-solid fa-code"

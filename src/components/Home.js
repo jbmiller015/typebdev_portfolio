@@ -1,6 +1,6 @@
 import ShowCase from "./showCase/ShowCase";
 import React from "react";
-import Header from "./Header";
+import Header from "./Header/Header";
 import About from "./About";
 import Projects from "./Projects";
 import './Home.css';
