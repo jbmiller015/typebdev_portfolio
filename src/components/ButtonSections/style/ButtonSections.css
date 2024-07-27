@@ -1,0 +1,134 @@
+.ButtonSections {
+    align-self: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 699;
+    top: 0%;
+    height: 2350px;
+}
+
+nav {
+    align-self: normal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    z-index: 799;
+}
+
+ul {
+    z-index: 899;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.AboutElement {
+    align-self: normal;
+    width: 100%;
+    display: block;
+}
+
+.AboutButton {
+    position: sticky;
+    top: 13%;
+    z-index: 999;
+}
+
+.ProjectsElement {
+    width: 100%;
+    display: flex;
+}
+
+.ProjectsButton {
+    top: 13%;
+    height: 25px;
+    z-index: 999;
+}
+
+.SkillsElement {
+    width: 100%;
+    display: flex;
+}
+
+.SkillsButton {
+    top: 13%;
+    height: 25px;
+    z-index: 999;
+}
+
+.ContactElement {
+    width: 100%;
+    display: flex;
+}
+
+.ContactButton {
+    top: 13%;
+    height: 25px;
+    z-index: 999;
+}
+
+.ButtonSections nav li {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: initial;
+    opacity: 1;
+    transition: font-weight 1s;
+}
+
+.ButtonSections nav li:hover {
+    opacity: 100%;
+}
+
+.ButtonSections nav li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: rgb(255, 235, 195);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.ButtonSections nav li a:hover::after,
+.ButtonSections nav li a:focus::after {
+    opacity: 1;
+    transform: translate(0.2em, 0);
+}
+
+/* Slide in */
+.ButtonSections nav li a {
+    font-family: inherit;
+    color: #1f1e1c;
+    overflow: hidden;
+    cursor: default;
+}
+
+.ButtonSections nav li a::after {
+    opacity: 1;
+    transform: translate(-100%, 0);
+}
+
+.ButtonSections nav li a:hover::after,
+.ButtonSections nav li a:focus::after {
+    transform: translate(0, 0);
+}
+
+/* Underline styles */
+.ButtonSections nav li a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+}
