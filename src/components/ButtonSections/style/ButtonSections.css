@@ -1,96 +1,39 @@
-.ButtonSections {
-    align-self: normal;
+
+.sticky-nav {
+    position: absolute;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    position: fixed;
+    top: 55%;
     width: 100%;
-    z-index: 699;
-    top: 0%;
-    height: 2350px;
+    height: 7%;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(0.25turn, rgba(252, 242, 216, 0.1), rgba(252, 242, 216, 0.0), rgba(252, 242, 216, 0.1));
+    transition: background-color .5s;
+    border-radius: 5px;
 }
 
-nav {
+.sticky-nav button {
+
+    font-family: inherit;
+    color: #1f1e1c;
+    overflow: hidden;
+    cursor: default;
     align-self: normal;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    z-index: 799;
-}
-
-ul {
-    z-index: 899;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
-    width: 100%;
-    list-style-type: none;
-    padding: 0;
-}
-
-.AboutElement {
-    align-self: normal;
-    width: 100%;
-    display: block;
-}
-
-.AboutButton {
-    position: sticky;
-    top: 13%;
-    z-index: 999;
-}
-
-.ProjectsElement {
-    width: 100%;
-    display: flex;
-}
-
-.ProjectsButton {
-    top: 13%;
-    height: 25px;
-    z-index: 999;
-}
-
-.SkillsElement {
-    width: 100%;
-    display: flex;
-}
-
-.SkillsButton {
-    top: 13%;
-    height: 25px;
-    z-index: 999;
-}
-
-.ContactElement {
-    width: 100%;
-    display: flex;
-}
-
-.ContactButton {
-    top: 13%;
-    height: 25px;
-    z-index: 999;
-}
-
-.ButtonSections nav li {
-    margin-right: 10px;
+    width: 50%;
     font-size: 18px;
     font-weight: initial;
     opacity: 1;
     transition: font-weight 1s;
+    width: 70px;
 }
 
-.ButtonSections nav li:hover {
+.sticky-nav:hover {
     opacity: 100%;
 }
 
-.ButtonSections nav li a::after {
+
+.sticky-nav button::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -102,33 +45,43 @@ ul {
     transition: opacity 300ms, transform 300ms;
 }
 
-.ButtonSections nav li a:hover::after,
-.ButtonSections nav li a:focus::after {
+.sticky-nav button::after,
+.sticky-nav button:focus::after {
     opacity: 1;
     transform: translate(0.2em, 0);
 }
 
-/* Slide in */
-.ButtonSections nav li a {
+
+.sticky-nav button {
     font-family: inherit;
     color: #1f1e1c;
     overflow: hidden;
     cursor: default;
 }
 
-.ButtonSections nav li a::after {
+.sticky-nav button::after {
     opacity: 1;
     transform: translate(-100%, 0);
 }
 
-.ButtonSections nav li a:hover::after,
-.ButtonSections nav li a:focus::after {
+.sticky-nav button:hover::after,
+.sticky-nav button:focus::after {
     transform: translate(0, 0);
 }
 
-/* Underline styles */
-.ButtonSections nav li a {
+.sticky-nav button {
+    font-family: inherit;
+    color: #1f1e1c;
+    overflow: hidden;
+    cursor: pointer;
     display: block;
     position: relative;
-    padding: 0.2em 0;
+}
+
+.sticky-nav.fixed {
+    position: fixed;
+    top: 0;
+    transform: none;
+    background: linear-gradient(0.25turn, rgba(252, 242, 216, 0.1), rgba(252, 242, 216, 0.5), rgba(252, 242, 216, 0.1));
+    transition: background-color 2s;
 }

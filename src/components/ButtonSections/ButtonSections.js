@@ -1,23 +1,48 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import './style/ButtonSections.css'
 
 const ButtonSections = () => {
-    return (<div className={"ButtonSections"}>
-        <nav>
-            <ul>
-                <li className={"AboutElement"}><a className={"AboutButton"}
-                                                  href={'about'}>About</a></li>
-                <li className={"ProjectsElement"}><a className={"ProjectsButton"}
-                                                     href={'projects'}>Projects</a>
-                </li>
-                <li className={"SkillsElement"}><a className={"SkillsButton"}
-                                                   href={'skills'}>Skills</a></li>
-                <li className={"ContactElement"}><a className={"ContactButton"}
-                                                    href={'contact'}>Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>);
+    const [isSticky, setIsSticky] = useState(false);
+
+    const buttons = [
+        {id: 'AboutSection', title: 'About'},
+        {id: 'ProjectsSection', title: 'Projects'},
+        {id: 'SkillsSection', title: 'Skills'},
+        {id: 'ContactSection', title: 'Contact'},
+    ];
+
+    useEffect(() => {
+        const handleScroll = () => {
+
+            console.log(window.scrollY)
+
+            if (window.scrollY >= 320) {
+                setIsSticky(true);
+            } else {
+                setIsSticky(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    return (
+        <div>
+            <nav className={`sticky-nav ${isSticky ? 'fixed' : ''}`}>
+                {buttons.map(button => (
+
+                    <button
+                        key={button.id}
+                        onClick={() => document.getElementById(button.id).scrollIntoView({behavior: 'smooth'})}
+                    >
+                        {button.title}
+                    </button>
+                ))}
+            </nav>
+        </div>
+    );
+
 
 }
 export default ButtonSections;

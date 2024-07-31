@@ -1,7 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .Home {
     font-family: ui-monospace;
     text-align: center;
     background: linear-gradient(to bottom right, #fcf2d8, #FFFBF3FF, #FFFBF3FF, #FFFBF3FF, #ffffff);
+    /*background: linear-gradient(to bottom right, #3a3742, #444548, #444548, #444548, #020000);*/
     color: #1f1e1c;
     padding: 10px 0;
     display: flex;
@@ -30,6 +35,8 @@
 
 
 .Header h1 {
+    font-size: xx-large;
+    font-family: inherit;
     margin: 0;
     opacity: 1;
     transition: opacity .33s;

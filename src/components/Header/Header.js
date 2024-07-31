@@ -5,7 +5,7 @@ import RotatingLine from "./RotatingLine";
 
 function Header() {
     return (
-        <div>
+        <div id={"HeaderSection"}>
             <div className={"Header"}>
                 <h1>Jacob Miller</h1>
             </div>

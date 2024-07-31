@@ -19,7 +19,7 @@ const Home = () => {
             <Resume/>
             <Projects/>
             <SkillTree data={skills}/>
-            <Contact/>
+            <Contact />
         </div>
     );
 }

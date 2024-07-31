@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Resume = () => {
-    return (<div>Resume</div>);
+    return (<div id={"ResumeSection"}>Resume</div>);
 }
 export default Resume;

@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section className="about">
+        <section className="about" id={"AboutSection"}>
             <h2>About Me</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla

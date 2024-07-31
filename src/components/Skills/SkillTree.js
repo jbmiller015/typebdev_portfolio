@@ -21,9 +21,11 @@ const SkillTree = ({data}) => {
 
 
     return (
-        <div className={'skill-tree-section'}>
-            <h2>Skill Tree</h2>
-            <div className="skill-tree">{renderBranches()}</div>
+        <div id={"SkillsSection"}>
+            <div className={'skill-tree-section'}>
+                <h2>Skill Tree</h2>
+                <div className="skill-tree">{renderBranches()}</div>
+            </div>
         </div>);
 };
 
