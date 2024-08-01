@@ -1,14 +1,14 @@
 import ShowCase from "./showCase/ShowCase";
 import React from "react";
-import Header from "./Header/Header";
-import About from "./About";
-import Projects from "./Projects";
+import Header from "./header/Header";
+import About from "./about/About";
+import Projects from "./projects/Projects";
 import './Home.css';
 import Contact from "./Contact";
-import Resume from "./Resume/Resume";
-import SkillTree from "./Skills/SkillTree";
-import skills from '../Info/skills.json'
-import ButtonSections from "./ButtonSections/ButtonSections";
+import Resume from "./resume/Resume";
+import SkillTree from "./skills/SkillTree";
+import skills from '../info/skills.json'
+import ButtonSections from "./buttonSections/ButtonSections";
 //<ShowCase/>
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
             <Resume/>
             <Projects/>
             <SkillTree data={skills}/>
-            <Contact />
+            <Contact/>
         </div>
     );
 }

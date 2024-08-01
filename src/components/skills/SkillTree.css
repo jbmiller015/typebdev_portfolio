@@ -5,7 +5,7 @@
 }
 
 .skill-tree {
-    background-image: url("/src/Resources/images/imgfiltered.png");
+    background-image: url("/src/resources/images/imgfiltered.png");
     background-size: 55% 90%;
     background-repeat: no-repeat;
     background-position: center top;

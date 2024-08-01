@@ -6,6 +6,7 @@ const ButtonSections = () => {
 
     const buttons = [
         {id: 'AboutSection', title: 'About'},
+        {id: 'ResumeSection', title: 'Resume'},
         {id: 'ProjectsSection', title: 'Projects'},
         {id: 'SkillsSection', title: 'Skills'},
         {id: 'ContactSection', title: 'Contact'},
@@ -13,8 +14,6 @@ const ButtonSections = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-
-            console.log(window.scrollY)
 
             if (window.scrollY >= 320) {
                 setIsSticky(true);

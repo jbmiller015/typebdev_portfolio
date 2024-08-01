@@ -1,10 +1,10 @@
 import React from 'react';
-import skills from '../../Info/skills.json';
+import skills from '../../info/skills.json';
 import Skill from "./skills/Skill";
-import resume from '../../Info/resume.json';
+import resume from '../../info/resume.json';
 import Resume from "./resume/Resume";
 import TextPopup from "../popups/TextPopup";
-import replaceText from "../../Middleware/ReplaceText";
+import replaceText from "../../middleware/ReplaceText";
 
 const ShowCase = () => {
     //TODO: Clean up

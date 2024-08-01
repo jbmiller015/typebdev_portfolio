@@ -1,5 +1,5 @@
 import React from 'react';
-import replaceText from "../../../Middleware/ReplaceText";
+import replaceText from "../../../middleware/ReplaceText";
 
 const Tech = (props) => {
 

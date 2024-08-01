@@ -5,24 +5,42 @@
       "startDate": "2019-08-01",
       "endDate": "2021-03-01",
       "location": "Seattle, WA",
-      "field": "Computer Science\nSpecializing in Software Engineering",
-      "degree": "Master of Science"
+      "field": [
+        "Computer Science"
+      ],
+      "degree": "Master of Science",
+      "extra": [
+        "Specializing in Software Engineering",
+        "Outstanding Student Award Finalist: Computer Science"
+      ]
     },
     {
       "school": "Seattle University",
       "startDate": "2018-06-01",
       "endDate": "2019-12-01",
       "location": "Seattle, WA",
-      "field": "Computer Science",
-      "degree": "Graduate Certificate"
+      "field": [
+        "Computer Science"
+      ],
+      "degree": "Graduate Certificate",
+      "extra": [
+        "The start of my career switch"
+      ]
     },
     {
       "school": "Luther College",
       "startDate": "2012-08-01",
       "endDate": "2016-05-01",
       "location": "Decorah, IA",
-      "field": "Political Science\nRussian Studies",
-      "degree": "Bachelor of Arts"
+      "field": [
+        "Political Science",
+        "Russian Studies"
+      ],
+      "degree": "Bachelor of Arts",
+      "extra": [
+        "NCAA Track & Field 2012-2016",
+        "All-Conference Track & Field (Pole Vault) 2015 & 2016"
+      ]
     }
   ],
   "Career": [
@@ -33,23 +51,22 @@
       "jobTitle": "Software Developer",
       "employer": "Insurity",
       "description": [
-        "Designed, developed, and tested solutions to complex business problems using Java, XML, and SQL.",
-        "Participated in daily standups, regular code reviews, and sprint planning as part of an Agile development team.",
-        "Owned production release preparation process for major (monthly) and minor (biweekly) product deployments.",
-        "Managed shared developer environment access control, making regular updates to preserve security standards.",
-        "Maintained org-wide QA DB, regularly cloning, masking, and inserting up-to-date data from production."
+        "Act as key contributor for five customer-facing products, using Java (Spring), TS (Angular), MySQL, Python, and XML.",
+        "Interface directly with internal and external customers to proactively address product needs and resolve issues, fostering strong relationships and bolstering customer satisfaction through effective communication and tailored solutions.",
+        "Drive cross-functional collaboration by facilitating seamless communication among diverse stakeholders, ensuring alignment with organizational objectives and driving timely completion of key project deliverables.",
+        "Oversee bi-weekly production software pipeline process for major and minor product version deployments.",
+        "Participate in daily standups, regular code reviews, and sprint planning, utilizing Agile methodologies."
       ]
     },
     {
       "startDate": "2020-08-01",
       "endDate": "2021-03-31",
       "location": "Seattle, WA",
-      "jobTitle": "Automation Engineer/Team Lead",
+      "jobTitle": "Software Engineer Consultant & Team Lead",
       "employer": "Puget Sound Energy",
       "description": [
-        "Developed automated solutions for complex finance problems, reducing reporting time from 4 hrs to ~10 sec.",
-        "Lead an Agile development team of 4 in regular standups, weekly code reviews, and stakeholder meetings.",
-        "Engineered automated robotic processes in Blue Prism (Automation Platform) using C# and Python."
+        "Engineered automated financial reporting processes in Blue Prism using C# and Python, reducing processing time by 96%.",
+        "Directed an Agile development team of four in regular standups, code reviews, and client meetings."
       ]
     },
     {
@@ -59,7 +76,7 @@
       "jobTitle": "Computer Science Graduate Teaching Assistant",
       "employer": "Seattle University",
       "description": [
-        "Trained and mentored 75+ graduate students in topics ranging from algorithmic and procedural problem solving, Object-Oriented programming, data structures, and software testing and debugging in Java and C++.",
+        "Instructed 75+ graduate students in technical topics including algorithmic and procedural problem solving, Object-Oriented Programming, data structures, and software testing and debugging in Java and C++.",
         "Organized weekly office hours to provide tutoring, counseling, and academic assistance to students, leading to an average pass percentage of 93% across four courses."
       ]
     },
@@ -67,13 +84,12 @@
       "startDate": "2019-10-01",
       "endDate": "2020-04-30",
       "location": "Seattle, WA",
-      "jobTitle": "Web Development Intern",
+      "jobTitle": "Web Developer",
       "employer": "Univera Serve First",
       "description": [
-        "Owned and managed complete website redesign project for Univera’s charity website.",
-        "Rebuilt front-end using JavaScript, HTML, and CSS to improve site usability and reliability.",
-        "Planned, developed, tested, and deployed integrated web applications to replace old, costly features.",
-        "Lead stakeholder meetings with Board, Marketing Team, and CEO to review changes and obtain sign off."
+        "Redesigned and rebuilt fundraising website using JavaScript, HTML, and CSS improving site usability and reliability.",
+        "Integrated Stripe payment processing to replace outdated services, reducing operating expenses.",
+        "Led stakeholder meetings with Board, Marketing Team, and CEO to review changes and obtain sign off."
       ]
     },
     {

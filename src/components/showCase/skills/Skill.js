@@ -1,6 +1,6 @@
 import React from 'react';
 import Tech from "./Tech";
-import replaceText from "../../../Middleware/ReplaceText";
+import replaceText from "../../../middleware/ReplaceText";
 
 const Skill = (props) => {
 

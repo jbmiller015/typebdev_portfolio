@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import moment from "moment";
-import replaceText from "../../../Middleware/ReplaceText";
+import replaceText from "../../../middleware/ReplaceText";
 
 const Work = (props) => {
 

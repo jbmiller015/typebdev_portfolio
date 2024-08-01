@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style/education.css"
-import LCLogo from '../../../Resources/images/LCLogo.png';
-import SULogo from '../../../Resources/images/SULogo.png';
+import LCLogo from '../../../resources/images/LCLogo.png';
+import SULogo from '../../../resources/images/SULogo.png';
 import moment from "moment";
 
 const Education = (props) => {

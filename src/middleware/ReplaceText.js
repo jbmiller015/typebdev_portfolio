@@ -1,4 +1,4 @@
-import skills from '../Info/skills.json';
+import skills from '../info/skills.json';
 import reactStringReplace from 'react-string-replace';
 import TextPopup from "../components/popups/TextPopup";
 

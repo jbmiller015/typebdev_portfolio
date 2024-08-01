@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "name": "Type-Beer",
+      "description": "Type-Beer allows breweries to gain insight into and take control of their production, distribution, and inventory.",
+      "stack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.JS",
+        "React-Native"
+      ],
+      "repo": "https://github.com/jbmiller015/type-beer",
+      "site": "https://typebeer.com/",
+      "images": [
+        "../../resources/images/typeBfull.png",
+        "../../resources/images/beers.JPG",
+        "../../resources/images/Brewfloor.JPG",
+        "../../resources/images/calendar.JPG",
+        "../../resources/images/process.JPG"
+      ]
+    },
+    {
+      "name": "Distributed File Store",
+      "description": "Distributed Cloud Env. Research. Developed and deployed a specialized Distributed File System store on EC2 instances.",
+      "stack": [
+        "EC2",
+        "S3",
+        "Lambda",
+        "Flask",
+        "Python",
+        "Chord Algorithm"
+      ],
+      "repo": "https://github.com/jbmiller015",
+      "site": "",
+      "images": []
+    },
+    {
+      "name": "React_Dice_Roller",
+      "description": "This project is a simple dice roller. I created this project to solidify my understanding of state management in React.",
+      "stack": [
+        "React"
+      ],
+      "repo": "https://github.com/jbmiller015/type-beer",
+      "site": "https://typebeer.com/",
+      "images": [
+        "../../resources/images/d20.JPG"
+      ]
+    },
+    {
+      "name": "Our World Lately",
+      "description": "Real-time news aggregator app the helps users understand biases in online content.",
+      "stack": [
+        "MongoDB",
+        "Express",
+        "Angular",
+        "Node.JS"
+      ],
+      "repo": "https://github.com/jbmiller015/type-beer",
+      "site": "https://typebeer.com/",
+      "images": [
+        "../../resources/images/d20.JPG"
+      ]
+    },
+    {
+      "name": "Distributed MiniTwit",
+      "description": "Distributed twitter-like python application across several AWS EC2 nodes to demonstrate application scalability and resilience.",
+      "stack": [
+        "EC2",
+        "S3",
+        "Lambda",
+        "Flask",
+        "Python"
+      ],
+      "repo": "https://github.com/jbmiller015/type-beer",
+      "site": "https://typebeer.com/",
+      "images": [
+        "../../resources/images/d20.JPG"
+      ]
+    }
+  ]
+}
