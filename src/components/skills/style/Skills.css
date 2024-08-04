@@ -1,0 +1,22 @@
+.skills {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    min-width: 150vh;
+}
+
+.skills2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    min-width: 130vh;
+    width: 130vh;
+}

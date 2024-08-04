@@ -13,11 +13,11 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "../../resources/images/typeBfull.png",
-        "../../resources/images/beers.JPG",
-        "../../resources/images/Brewfloor.JPG",
-        "../../resources/images/calendar.JPG",
-        "../../resources/images/process.JPG"
+        "typeBfull",
+        "beers",
+        "brewfloor",
+        "calendar",
+        "processImg"
       ]
     },
     {
@@ -33,7 +33,9 @@
       ],
       "repo": "https://github.com/jbmiller015",
       "site": "",
-      "images": []
+      "images": [
+        "d20"
+      ]
     },
     {
       "name": "React_Dice_Roller",
@@ -44,12 +46,12 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "../../resources/images/d20.JPG"
+        "d20"
       ]
     },
     {
       "name": "Our World Lately",
-      "description": "Real-time news aggregator app the helps users understand biases in online content.",
+      "description": "Real-time news aggregator app that helps users understand biases in online content.",
       "stack": [
         "MongoDB",
         "Express",
@@ -59,7 +61,7 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "../../resources/images/d20.JPG"
+        "d20"
       ]
     },
     {
@@ -75,7 +77,7 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "../../resources/images/d20.JPG"
+        "d20"
       ]
     }
   ]
