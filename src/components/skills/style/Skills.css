@@ -10,13 +10,13 @@
 }
 
 .skills2 {
-    padding: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    min-width: 130vh;
-    width: 130vh;
+    min-width: 100vw
 }

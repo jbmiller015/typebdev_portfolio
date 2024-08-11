@@ -10,7 +10,9 @@ function Header() {
                 <h1>Jacob Miller</h1>
             </div>
             <div className={"TagLine"}>
-                <h3>Development & Design</h3>
+                <h3 className="font-mono text-lg font-semibold text-stone-500">Development</h3>
+                <h3 className="text-lg font-semibold text-stone-500">&</h3>
+                <h3 className="font-serif text-lg font-semibold text-stone-500">Design</h3>
             </div>
             <div className={"BottomLine"}>
                 <RotatingLine direction={"left"}/>

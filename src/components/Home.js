@@ -11,6 +11,7 @@ import skills from '../info/skills.json'
 import ButtonSections from "./buttonSections/ButtonSections";
 import Skills from "./skills/Skills";
 import Skills2 from "./skills/Skills2";
+import Jelly from "./Jelly";
 //<ShowCase/>
 const Home = () => {
     return (

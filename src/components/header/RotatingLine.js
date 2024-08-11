@@ -3,14 +3,12 @@ import './style/RotatingLine.css';
 
 const RotatingLine = ({direction}) => {
     const [rotation, setRotation] = useState(0);
-    console.log(rotation)
-    let length = direction === "right" ? (rotation / 100) * -180 : (rotation / 100) * 180;
 
     const handleScroll = () => {
         const scrollTop = window.scrollY;
         const docHeight = document.documentElement.scrollHeight - window.innerHeight;
         const scrollPercent = (scrollTop / docHeight) * 100;
-        const rotationDegree = direction === "right" ? (scrollPercent / 100) * -180 : (scrollPercent / 100) * 180;
+        const rotationDegree = direction === "right" ? (scrollPercent / 50) * -180 : (scrollPercent / 50) * 180;
         setRotation(rotationDegree);
     };
 

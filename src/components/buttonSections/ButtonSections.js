@@ -15,6 +15,7 @@ const ButtonSections = () => {
     useEffect(() => {
         const handleScroll = () => {
 
+            //TODO: Percentage Y
             if (window.scrollY >= 320) {
                 setIsSticky(true);
             } else {
@@ -28,7 +29,7 @@ const ButtonSections = () => {
 
     return (
         <div>
-            <nav className={`sticky-nav ${isSticky ? 'fixed' : ''}`}>
+            <nav className={`sticky-nav z-100 ${isSticky ? 'fixed' : ''}`}>
                 {buttons.map(button => (
 
                     <button

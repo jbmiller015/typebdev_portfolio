@@ -11,7 +11,7 @@
     align-items: center;
     align-content: space-around;
     min-height: 80vh;
-    min-width: 120vh;
+    min-width: 75vw;
     border-top: solid;
     border-left: solid;
     border-right: solid;
@@ -35,12 +35,13 @@
 
 .TagLine {
     bottom: 47%;
-    min-width: 120vh;
+    min-width: 75vw;
     margin: 0;
     position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 1%;
 }
 
 .TagLine .h3 {
