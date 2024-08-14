@@ -28,8 +28,8 @@ const ButtonSections = () => {
     }, []);
 
     return (
-        <div>
-            <nav className={`sticky-nav z-100 ${isSticky ? 'fixed' : ''}`}>
+        <>
+            <nav className={`sticky-nav z-100 px-0 sm:px-6 mx-3/5 sm:mx-auto ${isSticky ? 'fixed' : ''}`}>
                 {buttons.map(button => (
 
                     <button
@@ -40,7 +40,7 @@ const ButtonSections = () => {
                     </button>
                 ))}
             </nav>
-        </div>
+        </>
     );
 
 

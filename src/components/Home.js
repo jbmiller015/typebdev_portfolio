@@ -16,7 +16,7 @@ import Jelly from "./Jelly";
 const Home = () => {
     return (
         <div className="Home">
-            <ButtonSections/>
+
             <Header/>
             <About/>
             <Resume/>

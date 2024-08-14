@@ -1,0 +1,24 @@
+.SlidingLine {
+    min-width: 50%;
+    background-color: transparent;
+    border: 3px solid dimgray;
+    transition: transform 1ms ease-in-out;
+    min-height: 100%;
+
+}
+
+.leftLine {
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    min-height: 100%;
+    left: 0;
+}
+
+.rightLine {
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 50%;
+    min-height: 100%;
+    right: 0;
+}

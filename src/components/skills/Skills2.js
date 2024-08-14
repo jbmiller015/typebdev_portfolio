@@ -2,12 +2,41 @@ import React, {useEffect, useState} from "react";
 import './style/Skills.css';
 import data from '../../info/skills.json';
 import SkillsModal from "./SkillModal";
+import * as PropTypes from "prop-types";
 
+function SkillCards({skill, onClick}) {
+    console.log(skill)
+    return (
+        <>
+            {Object.entries(skill.skills).map((skill, index) =>
+                <div onClick={onClick}
+                     className="card flex flex-col items-center justify-center glass w-36 sm:w-40 md:w-44 lg:w-48 h-36 sm:h-40 md:h-44 lg:h-48 cursor-pointer shadow-xl hover:shadow-none transition-shadow duration-300 hover:bg-gradient-to-b from-purple-100/20 via-yellow-300/20 to-green-100/20">
+                    <div className="card-body text-center">
+                        <h2 className="card-title text-base sm:text-lg md:text-xl lg:text-2xl">
+                            {skill[0]}
+                        </h2>
+                    </div>
+                    <figure className="h-1/2">
+                        <div
+                            className="text-4xl sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-900 via-green-900 to-yellow-900 inline-block text-transparent bg-clip-text flex justify-center items-center mb-4 sm:mb-6 mx-auto"
+                        >
+                            <i className={skill[1].icon ? skill[1].icon.name : ""}></i>
+                        </div>
+                    </figure>
+                </div>
+            )}
+
+        </>
+    );
+}
+
+SkillCards.propTypes = {
+    onClick: PropTypes.func,
+    skill: PropTypes.any
+};
 const Skills2 = () => {
     const [skills, setSkills] = useState([]);
-
-    const [active, setActive] = useState(0);
-
+    const [activeCategory, setActiveCategory] = useState("Languages");
     const [modalSkills, setModalSkills] = useState(null);
     const [showModal, setShowModal] = useState(false);
 
@@ -15,49 +44,51 @@ const Skills2 = () => {
         setSkills(data);
     }, []);
 
-
-    const handleCardClick = (skill, e) => {
+    const handleCardClick = (skill) => {
         setModalSkills(skill);
         setShowModal(true);
-    }
+    };
 
-    return (<div className="skills2" id={"SkillsSection"}>
-        <div className="container mx-auto h-full p-4">
-            <h2 className="py-4 text-4xl font-bold tracking-tight text-grey-900 sm:text-6xl">Skills & Tools</h2>
-            {showModal ? <SkillsModal data={modalSkills} setShowModal={setShowModal}/> : null}
-            <div role="tablist" className="tabs tabs-lifted w-full">
-                {Object.entries(skills).map((category, index) => (
-                    [
-                        <input type="radio" name={`my_tabs`} role="tab"
-                               className={`tab w-full text-nowrap ${index === active ? 'tab-active' : ''}`}
-                               aria-label={category[0]} key={`input${index}`} onClick={() => setActive(index)}/>,
-                        <div role="tabpanel"
-                             className={`tab-content overflow-scroll border-base-300 rounded-box p-6 h-[32rem] w-full justify-self-start`}
-                             key={`tab${index}`}>
-                            <div
-                                className="mt-5 md:mt-0 flex flex-wrap w-full h-full place-content-center">
-                                {Object.entries(category[1].skills).map((skill, index) => (
-                                    <div key={index} onClick={(event) => handleCardClick(skill, event)}
-                                         className="card flex glass items-center card-normal cursor-pointer m-1 w-48 h-48 shadow-xl hover:shadow-none transition-shadow duration-200 hover:bg-gradient-to-b from-purple-100/20 via-yellow-300/20 to-green-100/20 transition-color duration-200">
-                                        <div className="card-body text-center">
-                                            <h2 className="card-title">
-                                                {skill[0]}
-                                            </h2>
-                                        </div>
-                                        <figure className="h-1/2">
-                                            <div
-                                                className="text-6xl bg-gradient-to-l from-purple-900 via-green-900 to-yellow-900 inline-block text-transparent bg-clip-text flex justify-center items-center mb-6 mx-auto">
-                                                <i className={skill[1].icon ? skill[1].icon.name : ""}></i>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    ]))}
+    const handleCategoryChange = (index) => {
+        setActiveCategory(index);
+    };
+
+    console.log(skills)
+    return (
+        <div className="skills2" id="SkillsSection">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 h-[44rem] sm:h-dvh">
+                <h2 className="py-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
+                    Skills & Tools
+                </h2>
+                {showModal && <SkillsModal data={modalSkills} setShowModal={setShowModal}/>}
+
+                <div
+                    className="flex flex-wrap flex-row gap-2 justify-center sm:justify-left space-x-4 mb-8 overflow-x-scroll scroll-smooth">
+                    {Object.keys(skills).map((category, index) => (
+                        <button
+                            key={index}
+                            onClick={() => handleCategoryChange(category)}
+                            className={`px-4 py-2 text-nowrap text-sm sm:text-base md:text-lg lg:text-xl font-semibold rounded-lg transition-colors duration-500 ${
+                                activeCategory === category
+                                    ? "bg-gradient-to-r from-purple-900 via-yellow-900 to-green-900 text-white"
+                                    : "bg-gray-200 hover:bg-gray-300 text-gray-700"
+                            }`}
+                        >
+                            {category}
+                        </button>
+                    ))}
+                </div>
+
+                <div
+                    className="flex flex-wrap flex-row justify-center py-8 gap-4 w-full h-3/5 sm:w-full sm:h-80 md:h-96 lg:h-[32rem] overflow-y-scroll scroll-smooth">
+                    {Object.entries(skills).filter((skill, index) => (skill[0] === activeCategory)).map((skill, index) => (
+                        <SkillCards key={index} onClick={handleCardClick} skill={skills[skill[0]]}/>
+                    ))}
+                </div>
             </div>
-
         </div>
-    </div>);
+    )
+        ;
 }
+
 export default Skills2;

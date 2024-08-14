@@ -1,12 +1,13 @@
 
 .sticky-nav {
     position: absolute;
+    left: 25%;
+    top: 60%;
     display: flex;
+    gap: 6px;
     justify-content: center;
-    top: 65%;
-    width: 100%;
+    width: 50%;
     height: 7%;
-    left: 0;
     z-index: 150;
     background: linear-gradient(0.25turn, rgba(252, 242, 216, 0.1), rgba(252, 242, 216, 0.0), rgba(252, 242, 216, 0.1));
     transition: background-color .5s;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/Header.css'
 import RotatingLine from "./RotatingLine";
+import ButtonSections from "../buttonSections/ButtonSections";
 
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
                 <RotatingLine direction={"left"}/>
                 <RotatingLine direction={"right"}/>
             </div>
+            <ButtonSections/>
         </div>
     );
 }
