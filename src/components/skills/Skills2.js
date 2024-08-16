@@ -9,7 +9,7 @@ function SkillCards({skill, onClick}) {
     return (
         <>
             {Object.entries(skill.skills).map((skill, index) =>
-                <div onClick={onClick}
+                <div onClick={() => onClick(skill)}
                      className="card flex flex-col items-center justify-center glass w-36 sm:w-40 md:w-44 lg:w-48 h-36 sm:h-40 md:h-44 lg:h-48 cursor-pointer shadow-xl hover:shadow-none transition-shadow duration-300 hover:bg-gradient-to-b from-purple-100/20 via-yellow-300/20 to-green-100/20">
                     <div className="card-body text-center">
                         <h2 className="card-title text-base sm:text-lg md:text-xl lg:text-2xl">
@@ -45,6 +45,7 @@ const Skills2 = () => {
     }, []);
 
     const handleCardClick = (skill) => {
+        console.log(skill)
         setModalSkills(skill);
         setShowModal(true);
     };
@@ -63,7 +64,7 @@ const Skills2 = () => {
                 {showModal && <SkillsModal data={modalSkills} setShowModal={setShowModal}/>}
 
                 <div
-                    className="flex flex-wrap flex-row gap-2 justify-center sm:justify-left space-x-4 mb-8 overflow-x-scroll scroll-smooth">
+                    className="flex flex-wrap flex-row gap-2 justify-center sm:justify-left space-x-4 mb-8 overflow-x-scroll scroll-smooth ">
                     {Object.keys(skills).map((category, index) => (
                         <button
                             key={index}
@@ -80,7 +81,7 @@ const Skills2 = () => {
                 </div>
 
                 <div
-                    className="flex flex-wrap flex-row justify-center py-8 gap-4 w-full h-3/5 sm:w-full sm:h-80 md:h-96 lg:h-[32rem] overflow-y-scroll scroll-smooth">
+                    className="flex flex-wrap flex-row justify-center py-8 gap-4 w-full h-3/5 sm:w-full sm:h-80 md:h-96 lg:h-[32rem] overflow-y-scroll scroll-smooth border-2 border-gray-600">
                     {Object.entries(skills).filter((skill, index) => (skill[0] === activeCategory)).map((skill, index) => (
                         <SkillCards key={index} onClick={handleCardClick} skill={skills[skill[0]]}/>
                     ))}

@@ -4,6 +4,7 @@
     left: 25%;
     top: 60%;
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
     justify-content: center;
     width: 50%;
@@ -81,7 +82,11 @@
 
 .sticky-nav.fixed {
     position: fixed;
+    width: 100%;
     top: 0;
+    left: 0;
+    flex-wrap: nowrap;
+    gap: 4px;
     transform: none;
     background: linear-gradient(0.25turn, rgba(252, 242, 216, 0.1), rgba(252, 242, 216, 0.5), rgba(252, 242, 216, 0.1));
     transition: background-color 2s;

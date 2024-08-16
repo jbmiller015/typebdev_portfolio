@@ -1,13 +1,29 @@
-import React, {useState} from "react";
+import React, {useRef, useState} from "react";
 import {Form} from "react-router-dom";
 import FormSoup from "./FormSoup";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
     const [formValue, setFormValue] = useState({});
+
+    const form = useRef();
+
     const onSubmit = (e) => {
         e.preventDefault();
 
-    }
+        emailjs
+            .sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, form.current, {
+                publicKey: process.env.REACT_APP_EMAIL_PUBLIC_KEY,
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
 
     const buttons = [
         {id: '0', name: 'Web Design'},
@@ -40,7 +56,7 @@ const ContactForm = () => {
                         }>{button.name}
                 </button>))}
         </div>
-        <form className="mt-8 space-y-4">
+        <form ref={form} onSubmit={onSubmit} className="mt-8 space-y-4">
             <input type="text" placeholder="Name"
                    className="w-full rounded-lg py-3 px-4 text-white-800 input-white-800 text-sm outline-[#a91079] bg-yellow-300/20"/>
             <input type="email" placeholder="Email"
