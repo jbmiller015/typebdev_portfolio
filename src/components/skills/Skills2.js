@@ -5,20 +5,19 @@ import SkillsModal from "./SkillModal";
 import * as PropTypes from "prop-types";
 
 function SkillCards({skill, onClick}) {
-    console.log(skill)
     return (
         <>
             {Object.entries(skill.skills).map((skill, index) =>
                 <div onClick={() => onClick(skill)}
-                     className="card flex flex-col items-center justify-center glass w-36 sm:w-40 md:w-44 lg:w-48 h-36 sm:h-40 md:h-44 lg:h-48 cursor-pointer shadow-xl hover:shadow-none transition-shadow duration-300 hover:bg-gradient-to-b from-purple-100/20 via-yellow-300/20 to-green-100/20">
-                    <div className="card-body text-center">
+                     className="card overflow-visible flex flex-col items-center justify-center glass w-40 sm:w-44 md:w-48 lg:w-52 h-40 sm:h-44 md:h-48 lg:h-52 cursor-pointer shadow-xl hover:shadow-none transition-shadow duration-300 hover:bg-gradient-to-b from-purple-100/20 via-yellow-300/20 to-green-100/20">
+                    <div className="card-body text-center overflow-visible pb-2">
                         <h2 className="card-title text-base sm:text-lg md:text-xl lg:text-2xl">
                             {skill[0]}
                         </h2>
                     </div>
                     <figure className="h-1/2">
                         <div
-                            className="text-4xl sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-900 via-green-900 to-yellow-900 inline-block text-transparent bg-clip-text flex justify-center items-center mb-4 sm:mb-6 mx-auto"
+                            className="text-4xl overflow-auto sm:text-5xl md:text-6xl bg-gradient-to-l from-purple-900 via-green-900 to-yellow-900 inline-block text-transparent bg-clip-text flex justify-center items-center mb-4 sm:mb-6 mx-auto"
                         >
                             <i className={skill[1].icon ? skill[1].icon.name : ""}></i>
                         </div>
@@ -45,7 +44,6 @@ const Skills2 = () => {
     }, []);
 
     const handleCardClick = (skill) => {
-        console.log(skill)
         setModalSkills(skill);
         setShowModal(true);
     };
@@ -54,7 +52,6 @@ const Skills2 = () => {
         setActiveCategory(index);
     };
 
-    console.log(skills)
     return (
         <div className="skills2" id="SkillsSection">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 h-[44rem] sm:h-dvh">

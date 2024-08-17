@@ -18,14 +18,14 @@ const SkillsModal = ({data, setShowModal}) => {
         <div id="skillModal"
              className="overflow-y-hidden overflow-x-hidden fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-[400] h-full w-full">
             <div
-                className="bg-gradient-to-br from-[#fcf2d8] via-[#FFFBF3FF] to-[#ffffff] rounded-lg p-4 sm:p-6 lg:p-8 relative w-4/5 sm:w-2/3 md:w-1/2 lg:w-1/3 h-1/4 sm:h-1/2 md:h-1/3 shadow-xl flex flex-col gap-2 justify-center items-center">
+                className="bg-gradient-to-br from-[#fcf2d8] via-[#FFFBF3FF] to-[#ffffff] rounded-lg p-4 sm:p-6 lg:p-8 relative w-4/5 sm:w-2/3 md:w-1/2 lg:w-1/3 h-auto sm:h-1/2 md:h-1/3 shadow-xl flex flex-col gap-2 justify-center items-center">
                 <h2 className="font-extrabold text-xl sm:text-2xl md:text-3xl bg-gradient-to-r from-purple-900 via-yellow-900 to-green-900 text-transparent bg-clip-text text-center">
                     {data ? data[0] : ""}
                 </h2>
-                <p className="text-sm sm:text-lg md:text-xl text-center mt-4 sm:mt-2">
+                <p className="py-4 sm:py-4 text-sm sm:text-lg md:text-xl text-center mt-4 sm:mt-2">
                     {data[1].description}
                 </p>
-                <p className="py-2 sm:py-4 text-xs sm:text-lg italic text-center">
+                <p className="py-4 sm:py-4 text-xs sm:text-lg italic text-center">
                     {data[1].exp.notes}
                 </p>
                 <div

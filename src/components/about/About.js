@@ -142,30 +142,49 @@ function About() {
     }
 
     const stats = [
-        {name: 'Years of Experience', value: '5'},
-        {name: 'Degrees', value: '3'},
-        {name: 'Technical Languages', value: '8'},
-        {name: 'Capacity for Love', value: 'Unlimited'},
+        {
+            name: 'Years of Experience',
+            value: '5',
+            description: 'I started building software as a freelancer while working through gradschool. After a few technical part-time roles and some contracts, I transitioned to a full-time software developer.'
+        },
+        {
+            name: 'Degrees',
+            value: '3',
+            description: 'Two Bachelors and a Masters! While I\'m very proud of my technical Masters, I feel that my non-technical undergrad helps me better understand, not just the code, but the customer too.'
+        },
+        {
+            name: 'Technical Depth',
+            value: 'Deep',
+            description: 'I\'ve had the chance to work on a huge variety of technical problems and solutions. I\'ve worked hard to make myself comfortable in every aspect of the modern software development and design lifecycle.'
+        },
+        {
+            name: 'Patience',
+            value: 'Unlimited',
+            description: 'As a father to a young toddler, I have become an expert in patience. As a developer, this skill allows me to make sure everything works the way it\'s supposed to before sending it out.'
+        },
     ]
 
     return (
         <div className="about" id="AboutSection">
-            <div className="absolute mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="mx-auto max-w-5xl lg:mx-0">
+            <div
+                className="absolute mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col content-center justify-top">
+                <div className="mx-auto max-w-full lg:mx-0">
                     <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
                         About Me
                     </h2>
                     <WavyLine/>
                     <p className="mt-4 sm:mt-6 text-base sm:text-lg leading-6 sm:leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada purus non mi dictum, ut
-                        aliquet lacus feugiat. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-                        cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+                        Hello World! I'm a developer with a critical eye for detail and design. I started my career in
+                        tech at Amazon and got really excited about the things being developed around me. Eventually
+                        that excitement spurred me to become the software developer that I am today. I'm an all-rounder,
+                        jack-of-all-trades developer that enjoys making things work well and look good doing it!
                     </p>
                 </div>
                 <div className="mx-auto mt-8 sm:mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
                     <dl className="mt-12 sm:mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
                         {stats.map((stat) => (
                             <div key={stat.name} className="flex flex-col-reverse">
+                                <p>{stat.description}</p>
                                 <dt className="text-sm md:text-base leading-5 md:leading-7 text-gray-600">
                                     {stat.name}
                                 </dt>

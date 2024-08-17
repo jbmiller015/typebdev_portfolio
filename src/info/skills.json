@@ -7,60 +7,50 @@
         "description": "Increasingly general-purpose programming language",
         "exp": {
           "years": 5,
-          "notes": "JavaScript was the first language I learned when diving into web development. I still remember the excitement of seeing my first interactive webpage come to life!"
+          "notes": "JavaScript was the first language I learned when diving into web development. I've been using it professionally and in my various personal projects ever since."
         },
         "icon": {
-          "name": "fa-brands fa-js"
+          "name": "devicon-javascript-plain"
         }
       },
       "HTML": {
         "description": "HyperText Markup Language",
         "exp": {
           "years": 4,
-          "notes": "HTML was like my gateway into the world of coding. Creating my first webpage with HTML felt like unlocking a new realm of creativity."
+          "notes": "I've learned HTML by doing and looking at a whole lot of page inspector."
         },
         "icon": {
-          "name": "fa-brands fa-html5"
+          "name": "devicon-html5-plain-wordmark"
         }
       },
       "CSS": {
         "description": "Cascading Style Sheets",
         "exp": {
           "years": 4,
-          "notes": "CSS is where the magic of design happens! I remember the first time I styled a webpage and saw how CSS transformed its appearance."
+          "notes": "CSS is where the magic of design happens! Even though great tools exist that will style components for you, I think it's still important to know CSS."
         },
         "icon": {
-          "name": "fa-brands fa-css3-alt"
-        }
-      },
-      "XML": {
-        "description": "eXtensible Markup Language",
-        "exp": {
-          "years": 3,
-          "notes": "XML was crucial for structuring data in one of my early projects. It made handling complex data sets feel manageable and organized."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-css3-plain-wordmark"
         }
       },
       "TypeScript": {
         "description": "Typed superset of JavaScript",
         "exp": {
           "years": 3,
-          "notes": "TypeScript has been a game-changer for me, especially in larger projects where type safety is essential. It helped catch bugs early and improved my code quality."
+          "notes": "TypeScript just feels like safer JavaScript. I'm used to typed languages so switching from JS to TS and back is easy."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-typescript-plain"
         }
       },
       "Python": {
         "description": "General-purpose programming language",
         "exp": {
           "years": 4,
-          "notes": "Python feels like it's always there when I need it. Its simplicity and readability made learning to code a breeze, and I've been using it in a variety of ways from AI to scripting ever since."
+          "notes": "Python feels like it's always there when I need it. Its simplicity and readability made learning to code a breeze, and I've been using it in a variety of ways from AI model engineering to scripting ever since."
         },
         "icon": {
-          "name": "fa-brands fa-python"
+          "name": "devicon-python-plain"
         }
       },
       "Java": {
@@ -70,7 +60,7 @@
           "notes": "Java holds a special place in my heart as it was the language I learned during my university days. It taught me the fundamentals of programming and problem-solving."
         },
         "icon": {
-          "name": "fa-brands fa-java"
+          "name": "devicon-java-plain"
         }
       },
       "C++": {
@@ -80,27 +70,27 @@
           "notes": "C++ was my first dive into lower-level programming, and it was a rollercoaster ride of challenges and triumphs. Building efficient algorithms in C++ was incredibly satisfying."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-cplusplus-plain"
         }
       },
       "C#": {
         "description": "General-purpose programming language",
         "exp": {
           "years": 2,
-          "notes": "C# was the language I used to develop my first game. The experience was exhilarating, and it opened my eyes to the world of game development."
+          "notes": "C# was the preferred language for many of my Professors in college. Most of them were former Microsoft, so it made sense."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-csharp-plain"
         }
       },
       "SQL": {
         "description": "Domain-specific language used to handle relational data.",
         "exp": {
           "years": 6,
-          "notes": "SQL has been the backbone of many of my database projects during grad school and continues to be primary in my professional career. Its power and versatility in handling relational databases have been invaluable in creating efficient and scalable data solutions."
+          "notes": "Many flavors! SQL has been the backbone of many of my database projects during grad school and continues to be primary in my professional career. Its power and versatility in handling relational databases have been invaluable in creating efficient and scalable data solutions."
         },
         "icon": {
-          "name": "fa-solid fa-database"
+          "name": "devicon-azuresqldatabase-plain"
         }
       },
       "NoSQL": {
@@ -120,7 +110,7 @@
           "notes": "I used Prolog to program agent logic during research into ai development."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-prolog-plain"
         }
       }
     }
@@ -132,20 +122,30 @@
         "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
         "exp": {
           "years": 3,
-          "notes": "React is one of my favorite ways to build apps and websites! The way components stack and interact with one another just makes sense to me."
+          "notes": "This website is built using React. React is one of my favorite ways to build apps and websites! The way components stack and interact with one another just makes sense to me."
         },
         "icon": {
-          "name": "fa-brands fa-react"
+          "name": "devicon-react-original"
         }
       },
       "Angular": {
         "description": "Angular is a platform for building mobile and desktop web applications.",
         "exp": {
-          "years": 1,
-          "notes": "Angular is pretty cool! One of the projects I'm responsible for at Insurity uses Angular, so I get to use it often."
+          "years": 3,
+          "notes": "Angular is pretty cool! Several of the projects I'm responsible for at Insurity use Angular, so I get to use it often."
         },
         "icon": {
-          "name": "fa-brands fa-angular"
+          "name": "devicon-angular-plain"
+        }
+      },
+      "NextJS": {
+        "description": "Next.js is an open-source framework based on React that helps developers build web applications.",
+        "exp": {
+          "years": 1,
+          "notes": "I'm relatively new to building with Next.js but I can already tell I'm going to like it."
+        },
+        "icon": {
+          "name": "devicon-nextjs-plain"
         }
       }
     },
@@ -167,10 +167,20 @@
         "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
         "exp": {
           "years": 1,
-          "notes": "Bootstrap has been my go-to choice for rapidly prototyping user interfaces. Its extensive set of components and responsive design make UI development a breeze."
+          "notes": "Bootstrap has been convenient for rapidly prototyping user interfaces. Its extensive set of components and responsive design make UI development simple."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-bootstrap-plain"
+        }
+      },
+      "Tailwind CSS": {
+        "description": "Tailwind CSS is a design system implementation in pure CSS.",
+        "exp": {
+          "years": 1,
+          "notes": "Tailwind has been easy to use and definitely speeds up my styling efforts. I really like that I can set components up to be responsive and interesting in such short order."
+        },
+        "icon": {
+          "name": "devicon-tailwindcss-original"
         }
       },
       "SemanticUI": {
@@ -183,16 +193,6 @@
           "name": "fa-solid fa-code"
         }
       },
-      "Material Design": {
-        "description": "Material Design is a design language developed by Google in 2014.",
-        "exp": {
-          "years": 2,
-          "notes": "Material Design's principles of motion and depth have transformed the way I approach UI design. Its emphasis on real-world interactions creates immersive experiences that users love."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
       "Figma": {
         "description": "Figma is a cloud-based design tool that is similar to Sketch in functionality and features, but with big differences that make Figma better for team collaboration.",
         "exp": {
@@ -200,17 +200,17 @@
           "notes": "Figma has become an indispensable tool in my design workflow. Its collaborative features and seamless integration with other tools have streamlined my design process."
         },
         "icon": {
-          "name": "fa-brands fa-figma"
+          "name": "devicon-figma-plain"
         }
       },
       "WordPress": {
         "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.",
         "exp": {
           "years": 1,
-          "notes": "WordPress was my first foray into web design. Its simplicity and extensibility allowed me to create stunning websites in a short period of time."
+          "notes": "WordPress was my first foray into web design. Its simplicity allowed me to create basic websites in a short period of time."
         },
         "icon": {
-          "name": "fa-brands fa-wordpress"
+          "name": "devicon-wordpress-plain"
         }
       }
     },
@@ -228,7 +228,7 @@
           "notes": "Working with React Native has been a joy! It's amazing how I can leverage my React skills to develop mobile apps with such ease."
         },
         "icon": {
-          "name": "fa-brands fa-react"
+          "name": "devicon-react-original"
         }
       }
     },
@@ -244,24 +244,34 @@
   "Fullstack": {
     "description": "Fullstack development technologies and frameworks",
     "skills": {
-      ".NET": {
-        "description": ".NET is a framework for building web applications and services.",
+      ".NET Core": {
+        "description": ".NET Core is a framework for building web applications and services.",
         "exp": {
           "years": 2,
-          "notes": "I've been exploring .NET for a while now, and I'm impressed by its versatility and the extensive tooling it offers for fullstack development."
+          "notes": "I've primarily used .NET Core in university. My professors liked this framework, so we used it a lot."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-dotnetcore-plain"
+        }
+      },
+      "Spring": {
+        "description": "The Spring Framework is an application framework for the Java platform.",
+        "exp": {
+          "years": 2,
+          "notes": "Several of the projects I'm responsible for at Insurity use Spring, so I get to interact with it often."
+        },
+        "icon": {
+          "name": "devicon-spring-original"
         }
       },
       "Redux": {
         "description": "Redux is a predictable state container for JavaScript apps.",
         "exp": {
           "years": 1,
-          "notes": "Using Redux revolutionized the way I manage state in my applications. It brought clarity and predictability to my frontend development workflow."
+          "notes": "Using Redux to manage state in my applications just feels right. It brought clarity and predictability to more complex of my frontend development workflows."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-redux-original"
         }
       }
     },
@@ -284,27 +294,47 @@
           "notes": "Node.js has been my go-to choice for backend development. Its event-driven architecture and extensive package ecosystem make building scalable servers a breeze."
         },
         "icon": {
-          "name": "fa-brands fa-node-js"
+          "name": "devicon-nodejs-plain"
+        }
+      },
+      "nodewebkit": {
+        "description": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.",
+        "exp": {
+          "years": 4,
+          "notes": "Node.js has been my go-to choice for backend development. Its event-driven architecture and extensive package ecosystem make building scalable servers a breeze."
+        },
+        "icon": {
+          "name": "devicon-nodewebkit-plain"
         }
       },
       "Express": {
         "description": "Express is a minimal and flexible Node.js web application framework.",
         "exp": {
           "years": 4,
-          "notes": "Express has been the backbone of many of my web projects. Its simplicity and robustness make it perfect for quickly spinning up RESTful APIs."
+          "notes": "Express is the backbone of many of my web projects. Its simplicity and robustness make it perfect for quickly spinning up RESTful APIs."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-express-original"
         }
       },
       "WildFly": {
         "description": "WildFly is a flexible, lightweight, managed application runtime that helps you build amazing applications.",
         "exp": {
           "years": 3,
-          "notes": "WildFly introduced me to the world of JavaEE and enterprise-level application development. Its lightweight nature and powerful features make it a joy to work with."
+          "notes": "I've mainly used WildFly in professional settings to quickly spin up local instances of Springs Apps."
         },
         "icon": {
           "name": "fa-solid fa-code"
+        }
+      },
+      "Spring Boot": {
+        "description": "Spring Boot is an open-source Java framework used for programming standalone, production-grade Spring-based applications with minimal effort.",
+        "exp": {
+          "years": 3,
+          "notes": "We use Spring Boot in parts of our server-side framework at Insurity."
+        },
+        "icon": {
+          "name": "devicon-spring-original"
         }
       }
     },
@@ -328,7 +358,7 @@
           "notes": "MongoDB has been my go-to database for projects requiring flexible schema and scalability. Its document-based approach fits perfectly with modern application development."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-mongodb-plain"
         }
       },
       "Azure Cosmos DB": {
@@ -338,67 +368,47 @@
           "notes": "Azure Cosmos DB opened my eyes to the possibilities of NoSQL databases in building globally distributed, highly responsive applications. Its versatility is truly impressive."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-cosmosdb-plain"
         }
       },
       "DynamoDB": {
         "description": "Amazon Dynamo DB is a fully managed proprietary NoSQL database service that supports key-value and document data structures.",
         "exp": {
           "years": 3,
-          "notes": "DynamoDB has been instrumental in handling massive amounts of data in my projects. Its scalability and performance make it a top choice for high-traffic applications."
+          "notes": "I use DynamoDB professionally. I've gotten really good at interacting with objects via api due to restrictions on GUI use."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-dynamodb-plain"
         }
       },
       "S3": {
         "description": "Amazon S3 is a scalable object storage service that allows you to store and retrieve any amount of data from anywhere on the web.",
         "exp": {
           "years": 3,
-          "notes": "S3 has been my trusted companion for storing and serving static assets in web applications. Its reliability and scalability are unmatched."
+          "notes": "S3 has been my trusted companion for storing and serving static assets in web applications."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-amazonwebservices-plain-wordmark"
         }
       },
       "MySQL": {
         "description": "MySQL is an open-source relational database management system.",
         "exp": {
           "years": 3,
-          "notes": "MySQL was my first introduction to relational databases. Its ease of use and widespread adoption made it the perfect choice for many of my early projects."
+          "notes": "MySQL was my first introduction to relational databases and I still use it professionally."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-mysql-original"
         }
       },
       "PostgreSQL": {
         "description": "PostgreSQL is a powerful, open-source object-relational database system.",
         "exp": {
           "years": 1,
-          "notes": "PostgreSQL's advanced features and extensibility have made it my go-to choice for projects requiring complex data modeling and querying."
+          "notes": "PostgreSQL's advanced features and extensibility have stood out for projects requiring complex data modeling and querying."
         },
         "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "SQL Server": {
-        "description": "Microsoft SQL Server is a relational database management system developed by Microsoft.",
-        "exp": {
-          "years": 1,
-          "notes": "SQL Server has been crucial for integrating with Microsoft technologies in my projects. Its robustness and enterprise-level features make it a solid choice for mission-critical applications."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Redshift": {
-        "description": "Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud.",
-        "exp": {
-          "years": 1,
-          "notes": "Redshift has been a game-changer for me in handling big data analytics. Its scalability and performance have enabled me to derive valuable insights from large datasets efficiently."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-postgresql-plain"
         }
       }
     },
@@ -417,20 +427,30 @@
         "description": "Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
         "exp": {
           "years": 4,
-          "notes": "AWS has been my go-to cloud platform for deploying scalable and reliable applications. Its vast array of services and global infrastructure make it unbeatable for cloud computing."
+          "notes": "AWS was the first cloud platform I worked on. I've had the opportunity to work with a lot of solutions and feel very comfortable within the AWS ecosystem."
         },
         "icon": {
-          "name": "fa-brands fa-aws"
+          "name": "devicon-amazonwebservices-plain-wordmark"
+        }
+      },
+      "firebase": {
+        "description": "Firebase is a cloud-based platform from Google that helps developers build, deploy, and scale apps for mobile and the web.",
+        "exp": {
+          "years": 4,
+          "notes": "I use firebase to host all the services for my fullstack apps."
+        },
+        "icon": {
+          "name": "devicon-firebase-plain"
         }
       },
       "Microsoft Azure": {
         "description": "Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
         "exp": {
           "years": 3,
-          "notes": "Azure has been instrumental in bridging the gap between on-premises and cloud environments in my projects. Its seamless integration with Microsoft technologies makes it a natural choice for enterprise applications."
+          "notes": "Azure was the first cloud platform for which I set up a full CI/CD flow for an app I was working on at the time. Happy to say, the process was straight-forward enough!"
         },
         "icon": {
-          "name": "fa-brands fa-microsoft"
+          "name": "devicon-azuredevops-plain"
         }
       },
       "Google Cloud Platform": {
@@ -440,7 +460,7 @@
           "notes": "Google Cloud Platform's innovation and reliability have impressed me time and again. From AI and machine learning to scalable infrastructure, GCP has everything I need to build cutting-edge applications."
         },
         "icon": {
-          "name": "fa-brands fa-google"
+          "name": "devicon-googlecloud-plain"
         }
       },
       "Docker": {
@@ -450,7 +470,7 @@
           "notes": "Docker revolutionized my development workflow by streamlining the deployment process. Its lightweight containers and portability have made shipping applications a breeze."
         },
         "icon": {
-          "name": "fa-brands fa-docker"
+          "name": "devicon-docker-plain"
         }
       }
     },
@@ -475,7 +495,7 @@
           "notes": "I've used Pandas extensively for cleaning, transforming, and analyzing large datasets. Its user-friendly API and rich functionality simplify complex data operations."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-pandas-plain"
         }
       },
       "Numpy": {
@@ -485,17 +505,17 @@
           "notes": "NumPy has been a cornerstone in my data processing tasks, enabling efficient numerical calculations and seamless integration with other scientific libraries."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-numpy-plain"
         }
       },
       "TensorFlow": {
         "description": "TensorFlow is a comprehensive open-source platform for machine learning, providing tools for building, training, and deploying machine learning models at scale.",
         "exp": {
           "years": 2,
-          "notes": "TensorFlow has been my go-to framework for developing deep learning models. Its robustness and extensive ecosystem make it ideal for both research and production applications."
+          "notes": "TensorFlow is great for developing deep learning models. Its robustness and extensive ecosystem make it ideal for both research and production applications."
         },
         "icon": {
-          "name": "fa-brands fa-tensorflow"
+          "name": "devicon-tensorflow-original"
         }
       },
       "PyTorch": {
@@ -505,7 +525,7 @@
           "notes": "PyTorch has transformed my approach to deep learning with its dynamic nature and intuitive design. It has been particularly beneficial for rapid prototyping and research experimentation."
         },
         "icon": {
-          "name": "fa-brands fa-pytorch"
+          "name": "devicon-pytorch-original"
         }
       },
       "Scikit-learn": {
@@ -515,7 +535,7 @@
           "notes": "Scikit-learn has been indispensable for my classical machine learning projects. Its comprehensive suite of algorithms and tools for model selection, validation, and preprocessing streamline the development process."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-scikitlearn-plain"
         }
       },
       "Model Engineering": {
@@ -525,7 +545,7 @@
           "notes": "My experience in model engineering includes designing robust architectures, optimizing hyperparameters, and ensuring models meet performance and accuracy requirements."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "fa-solid fa-code-branch"
         }
       },
       "Model Validation": {
@@ -535,7 +555,7 @@
           "notes": "I have applied various validation techniques, such as cross-validation and A/B testing, to rigorously assess model performance and prevent overfitting."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "fa-solid fa-list-check"
         }
       },
       "Model Training": {
@@ -545,7 +565,7 @@
           "notes": "I have trained numerous models, leveraging techniques like gradient descent and regularization to optimize performance and ensure convergence."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "fa-solid fa-brain"
         }
       }
     }
@@ -556,7 +576,7 @@
       "name": "fa-solid fa-brain-circuit"
     },
     "skills": {
-      "Windows Batch Scripting": {
+      "Batch": {
         "description": "Batch scripting is a way of automating tasks in Windows.",
         "exp": {
           "years": 4,
@@ -566,23 +586,14 @@
           "name": "fa-brands fa-windows"
         }
       },
-      "Linux Shell Scripting": {
+      "Shell": {
         "description": "Shell scripting is a way of automating tasks in Unix-like operating systems.",
         "exp": {
           "years": 4,
-          "notes": "Shell scripting has been my Swiss army knife in Linux. Whether it's system administration or process automation, shell scripts have been my trusty companion."
+          "notes": "I prefer writing scripts in shell and I think Linux commands make more sense."
         },
         "icon": {
-          "name": "fa-brands fa-linux"
-        }
-      },
-      "All-Purpose Automation Scripting": {
-        "description": "General-purpose scripting language",
-        "languages": [
-          "Python"
-        ],
-        "icon": {
-          "name": "fa-solid fa-scroll"
+          "name": "devicon-bash-plain"
         }
       }
     }
@@ -594,20 +605,20 @@
         "description": "JUnit is a unit testing framework for the Java programming language.",
         "exp": {
           "years": 5,
-          "notes": "JUnit was my first and still has been my go-to framework for unit testing in Java. Its simplicity and extensive documentation make writing and running tests a breeze."
+          "notes": "JUnit was my first and still is the primary framework I use for unit testing in Java. Its simplicity and extensive documentation make writing and running tests a breeze."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-junit-plain"
         }
       },
       "Mocha": {
         "description": "Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun.",
         "exp": {
           "years": 1,
-          "notes": "Mocha has been my preferred choice for testing JavaScript applications. Its support for asynchronous testing and flexible assertions make it a joy to work with."
+          "notes": "I've used Mocha extensively for testing JavaScript applications. Its support for asynchronous testing and flexible assertions make it a joy to work with."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-mocha-plain"
         }
       },
       "Selenium": {
@@ -617,24 +628,24 @@
           "notes": "Selenium has been instrumental in ensuring the quality of my web applications. Its cross-browser testing capabilities have saved me from many compatibility headaches."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-selenium-original"
         }
       },
       "Jest": {
         "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity.",
         "exp": {
           "years": 2,
-          "notes": "Jest has made testing JavaScript applications a breeze with its intuitive API and built-in mocking capabilities. It's my go-to choice for frontend testing."
+          "notes": "Jest has made testing JavaScript applications a breeze with its intuitive API and built-in mocking capabilities."
         },
         "icon": {
-          "name": "fa-solid fa-code"
+          "name": "devicon-jest-plain"
         }
       },
       "BluePrism": {
         "description": "Blue Prism is a set of tools, libraries, and runtime environments for RPA (Robotic Process Automation).",
         "exp": {
           "years": 1,
-          "notes": "Blue Prism has opened up new possibilities for automating repetitive tasks in my workflow. Its drag-and-drop interface makes building automation processes a breeze."
+          "notes": "I've used Blue Prism professionally to automate repetitive financial tasks for the customers."
         },
         "icon": {
           "name": "fa-solid fa-code"
@@ -644,17 +655,7 @@
         "description": "Mockito is an open-source testing framework for Java released under the MIT License.",
         "exp": {
           "years": 1,
-          "notes": "Mockito has been invaluable in my Java projects for creating mock objects and verifying interactions between components. Its simplicity and flexibility make testing a pleasure."
-        },
-        "icon": {
-          "name": "fa-solid fa-code"
-        }
-      },
-      "Apache JMeter": {
-        "description": "Apache JMeter is an Apache project that can be used as a load testing tool for analyzing and measuring the performance of a variety of services.",
-        "exp": {
-          "years": 1,
-          "notes": "Apache JMeter has been my go-to tool for load testing web applications. Its extensibility and rich feature set make it a powerful tool for performance testing."
+          "notes": "Mockito has been invaluable in my Java projects for creating mock objects and verifying interactions between components."
         },
         "icon": {
           "name": "fa-solid fa-code"
