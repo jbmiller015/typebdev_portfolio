@@ -297,11 +297,11 @@
           "name": "devicon-nodejs-plain"
         }
       },
-      "nodewebkit": {
-        "description": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser.",
+      "NW.js": {
+        "description": "NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.",
         "exp": {
-          "years": 4,
-          "notes": "Node.js has been my go-to choice for backend development. Its event-driven architecture and extensive package ecosystem make building scalable servers a breeze."
+          "years": 1,
+          "notes": "I had a very specific use-case for a this at Insurity where I used NW.js as a base on which to build a local development pipeline UI."
         },
         "icon": {
           "name": "devicon-nodewebkit-plain"
