@@ -9,6 +9,13 @@ function Projects() {
         setProjects(data.projects);
     }, []);
 
+    const getImgSrc = (imgSrc) => {
+        if (imgSrc && imgSrc.includes('http')) {
+            return imgSrc;
+        } else if (imgSrc)
+            return `/images/${imgSrc}${imgSrc === "typeBfull" || imgSrc === "d20" || imgSrc === "mini_twit" ? '.png' : '.JPG'}`;
+    }
+
     return (
         <div className="project" id="ProjectsSection">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -21,7 +28,7 @@ function Projects() {
                              className="card glass card-normal h-full bg-gradient-to-t from-orange-300/10 via-yellow-300/10 to-purple-300/10 w-full sm:w-auto shadow-xl hover:shadow-none transition-shadow duration-300">
                             <figure className="h-48 sm:h-64 md:h-72 lg:h-80 xl:h-96">
                                 <img
-                                    src={`/images/${project.images[0]}${project.images[0] === "typeBfull" || project.images[0] === "d20" ? '.png' : '.JPG'}`}
+                                    src={getImgSrc(project.images[0])}
                                     alt={project.images[0]}
                                     className="w-fit h-fit object-cover"
                                 />

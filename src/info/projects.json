@@ -34,7 +34,7 @@
       "repo": "https://github.com/jbmiller015",
       "site": "",
       "images": [
-        "d20"
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-plain.svg"
       ]
     },
     {
@@ -61,7 +61,10 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "d20"
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
       ]
     },
     {
@@ -77,7 +80,7 @@
       "repo": "https://github.com/jbmiller015/type-beer",
       "site": "https://typebeer.com/",
       "images": [
-        "d20"
+        "mini_twit"
       ]
     }
   ]
