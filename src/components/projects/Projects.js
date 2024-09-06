@@ -48,6 +48,19 @@ function Projects() {
                                         </div>
                                     ))}
                                 </div>
+                                <div className="divider"></div>
+                                <div className="card-actions justify-start flex-wrap gap-2">
+                                    {project.site && project.site.length > 1 ? <button
+                                        className="badge badge-outline text-md sm:text-lg md:text-lg lg:text-xl hover:bg-gradient-to-r from-green-900 via-yellow-900 to-purple-900 p-4 hover:text-white"
+                                        onClick={() => window.open(project.site)}>
+                                        Demo
+                                    </button> : null}
+                                    {project.repo && project.repo.length > 1 ? <button
+                                        className="badge badge-outline text-md sm:text-lg md:text-lg lg:text-xl hover:bg-gradient-to-r from-green-900 via-yellow-900 to-purple-900 p-4 hover:text-white"
+                                        onClick={() => window.open(project.repo)}>
+                                        Repo
+                                    </button> : null}
+                                </div>
                             </div>
                         </div>
                     ))}

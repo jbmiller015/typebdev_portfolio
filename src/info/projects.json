@@ -31,7 +31,7 @@
         "Python",
         "Chord Algorithm"
       ],
-      "repo": "https://github.com/jbmiller015",
+      "repo": "",
       "site": "",
       "images": [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hadoop/hadoop-plain.svg"
@@ -43,8 +43,8 @@
       "stack": [
         "React"
       ],
-      "repo": "https://github.com/jbmiller015/type-beer",
-      "site": "https://typebeer.com/",
+      "repo": "https://github.com/jbmiller015/React_Dice_Roller",
+      "site": "",
       "images": [
         "d20"
       ]
@@ -58,8 +58,8 @@
         "Angular",
         "Node.JS"
       ],
-      "repo": "https://github.com/jbmiller015/type-beer",
-      "site": "https://typebeer.com/",
+      "repo": "",
+      "site": "",
       "images": [
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
@@ -77,8 +77,8 @@
         "Flask",
         "Python"
       ],
-      "repo": "https://github.com/jbmiller015/type-beer",
-      "site": "https://typebeer.com/",
+      "repo": "",
+      "site": "",
       "images": [
         "mini_twit"
       ]
