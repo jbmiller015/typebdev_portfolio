@@ -38,13 +38,13 @@
       ]
     },
     {
-      "name": "React_Dice_Roller",
+      "name": "React Dice Roller",
       "description": "This project is a simple dice roller. I created this project to solidify my understanding of state management in React.",
       "stack": [
         "React"
       ],
       "repo": "https://github.com/jbmiller015/React_Dice_Roller",
-      "site": "",
+      "site": "https://reactdiceroller.web.app/",
       "images": [
         "d20"
       ]
